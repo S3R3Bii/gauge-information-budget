@@ -1,0 +1,8 @@
+# Source and reuse basis
+
+- [USGS daily-values API](https://api.waterdata.usgs.gov/ogcapi/v1/collections/daily) and [schema](https://api.waterdata.usgs.gov/ogcapi/v1/collections/daily/schema): daily statistics, parameter/statistic labels, string-preserved numeric values, approval status, qualifiers and refresh dates. Approved data have completed processing review; they are not original real-time vintages.
+- [Time-series metadata](https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-metadata/schema): Primary status, Daily/Mean computation, units, period of record and gaps. last_modified can reflect regular refresh without a changed measurement.
+- [Monitoring locations](https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations): official station names and river identities; not a travel-time, hydrologic-connectivity or causal-flow audit.
+- [USGS reuse guidance](https://www.usgs.gov/faqs/are-usgs-reportspublications-copyrighted): USGS-produced data/information may be reused with acknowledgment; third-party material may have separate rights. Publish selected factual data/original analysis, exclude full documents/artwork and do not imply endorsement.
+
+Metadata for12 originally considered gauges and station names for8fixed gauges were inspected before the specific protocol. A single2020development-day response was inspected only for schema/time fields. No flow/error/correlation outcome was inspected. This is an established ridge/persistence comparison and conditional outage scenario, not a novel estimator or exhaustive prior-work claim. Actual operational warning availability, water-level/inundation labels and realized benefit are not established.
