@@ -1,0 +1,47 @@
+{
+  "timestamp_utc": "2026-10-29T19:20:41.875085+00:00",
+  "study_id": "14",
+  "status": "INCOMPLETE_SOURCE_APPROVAL_GATE",
+  "released": false,
+  "source_rows": 17784,
+  "source_stations": 8,
+  "approved_rows": 17410,
+  "provisional_rows": 374,
+  "failed_station_years": [
+    {
+      "station": "01463500",
+      "year": 2025,
+      "usable_approved_days": 64,
+      "calendar_days": 365,
+      "required_fraction": 0.95
+    },
+    {
+      "station": "05378500",
+      "year": 2025,
+      "usable_approved_days": 322,
+      "calendar_days": 365,
+      "required_fraction": 0.95
+    },
+    {
+      "station": "05407000",
+      "year": 2025,
+      "usable_approved_days": 335,
+      "calendar_days": 365,
+      "required_fraction": 0.95
+    }
+  ],
+  "checks": "Independent SQLite approval/coverage totals agree with the production gate failure. All source rows captured; exact metadata versions match. No model, correlation, validation or final predictive metric was computed.",
+  "projection_sha256": {
+    "data/source/observations.csv.gz": "24463a6029001035aa48401dc2a0d99eb1bb5ef4cc2a194e30f4a758a5e75845",
+    "data/source/manifest.json": "60f7609f76b948154cbc4fb2b0ecfdffb859b40ab3937b36ef3659a981a5d58b"
+  },
+  "source_gate": "FAIL:predeclared95percent Approved coverage perstation/year",
+  "next_step": "Wait for/obtain a qualifying approved source snapshot under the same protocol, or design a separately labeled prospective amendment before any model analysis; do not silently replace dates, stations, quality gates or provisional labels.",
+  "retained_failure": "Initial scalar qualifier mismatch repaired with explicit prospective schema note; exact response bytes retained. The subsequent coverage failure is substantive and preserved; no repeated fitting or outcome-based window change.",
+  "review_budget": {
+    "rounds": 1,
+    "elapsed_wall_proxy": "Source-readiness work began about19:08UTC; current timestamp retained; elapsed wall time includes coding and execution, not quota or billing.",
+    "review_calls_upper_bound": 20,
+    "proxies_not_quota": true
+  }
+}
