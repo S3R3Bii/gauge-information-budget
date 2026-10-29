@@ -6,6 +6,7 @@ import gzip
 import hashlib
 import io
 import json
+import re
 from datetime import datetime, date, timezone, timedelta
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
@@ -72,7 +73,15 @@ def project(properties, basin, role, station, series):
     if approval != "Approved":
         quality = "unapproved"
     qualifier = p["qualifier"]
-    assert qualifier is None or isinstance(qualifier, str) and len(qualifier) <= 64
+    if qualifier is None:
+        qualifier = []
+    elif isinstance(qualifier, str):
+        qualifier = [qualifier] if qualifier else []
+    assert isinstance(qualifier, list) and all(
+        isinstance(flag, str) and re.fullmatch(r"[A-Za-z0-9_ -]{1,64}", flag)
+        for flag in qualifier
+    )
+    qualifier = json.dumps(qualifier, separators=(",", ":")) if qualifier else ""
     modified = p["last_modified"]
     assert isinstance(modified, str)
     return dict(
@@ -98,10 +107,31 @@ def project(properties, basin, role, station, series):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("originals", type=Path)
+    parser.add_argument("--resume", action="store_true")
     a = parser.parse_args()
     raw = a.originals.resolve()
     assert not raw.is_relative_to(ROOT)
-    raw.mkdir(parents=True, exist_ok=False)
+    raw.mkdir(parents=True, exist_ok=a.resume)
+    if a.resume:
+        failure = json.loads((raw / "INITIAL_FAILURE.json").read_text())
+        for name, digest in failure["retained_original_sha256"].items():
+            assert hashlib.sha256((raw / name).read_bytes()).hexdigest() == digest
+        if (raw / "CAPTURE_PROGRESS.json").exists():
+            assert (
+                json.loads((raw / "CAPTURE_PROGRESS.json").read_text())["state"]
+                != "COMPLETE"
+            )
+
+    def capture(url, name):
+        path = raw / name
+        if path.exists():
+            assert a.resume, "Existing source original must not be overwritten"
+            data = path.read_bytes()
+            return data, json.loads(data)
+        data, parsed = get(url)
+        path.write_bytes(data)
+        return data, parsed
+
     pages = []
     stations = []
     rows = []
@@ -123,9 +153,8 @@ def main():
                     }
                 )
             )
-            data, j = get(url)
             name = station + "-metadata-before.json"
-            (raw / name).write_bytes(data)
+            data, j = capture(url, name)
             selected = [
                 x["properties"]
                 for x in j["features"]
@@ -141,9 +170,8 @@ def main():
             )
             versions[station] = p["last_modified"]
             location_url = BASE + f"monitoring-locations/items/USGS-{station}?f=json"
-            locbytes, location = get(location_url)
             locname = station + "-location.json"
-            (raw / locname).write_bytes(locbytes)
+            locbytes, location = capture(location_url, locname)
             assert location["properties"]["id"] == "USGS-" + station
             stations.append(
                 {
@@ -181,9 +209,8 @@ def main():
             count = 0
             while url:
                 assert url.startswith(BASE + "daily/items?") and number < 3
-                data, j = get(url)
                 name = f"{station}-daily-{number}.json"
-                (raw / name).write_bytes(data)
+                data, j = capture(url, name)
                 for feature in j["features"]:
                     r = project(feature["properties"], basin, role, station, series)
                     key = station, r["date"]
@@ -197,7 +224,9 @@ def main():
                         "page": number,
                         "url": url,
                         "original_file": name,
-                        "captured_utc": datetime.now(timezone.utc).isoformat(),
+                        "response_saved_utc": datetime.fromtimestamp(
+                            (raw / name).stat().st_mtime, timezone.utc
+                        ).isoformat(),
                         "bytes": len(data),
                         "rows": len(j["features"]),
                         "sha256": hashlib.sha256(data).hexdigest(),
@@ -214,9 +243,8 @@ def main():
                 {"state": "CAPTURING", "pages": pages, "stations": stations},
             )
     for station in stations:
-        data, j = get(station["metadata_url"])
         name = station["station"] + "-metadata-after.json"
-        (raw / name).write_bytes(data)
+        data, j = capture(station["metadata_url"], name)
         assert len(j["features"]) == 1
         assert (
             j["features"][0]["properties"]["last_modified"]
