@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "2026-10-30T23:46:43.850982+00:00",
+  "status": "DESIGN_ONLY_BEFORE_ANY_MODEL",
+  "original_failed_revision": "7c854e2",
+  "original_failed_scope": "2020\u20132025 Approved-day coverage",
+  "v2_scope": "2019-12 warmup;2020\u20132021 train;2022 development validation;2023\u20132024 final",
+  "source_quality_informed_period": true,
+  "all_source_values_present_not_blinded": true,
+  "predictive_results_seen": false,
+  "source_gate": "pending40stationyears",
+  "release": "pending",
+  "grade": 2,
+  "review_budget": {
+    "round": 1,
+    "max_rounds": 3,
+    "max_active_review_minutes": 45,
+    "max_review_tool_calls": 60
+  }
+}
