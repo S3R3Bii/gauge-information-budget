@@ -1,0 +1,11 @@
+{
+  "status": "PASS_SOURCE_VALUES_AND_ACTUAL_SVG",
+  "figures": 3,
+  "mapped_source_values": 108,
+  "svg_coordinates": 648,
+  "individual_numeric_labels": 72,
+  "source_bound_cell_colors": 64,
+  "file_hashes": 9,
+  "source": "Primary skills and intervals; all64 sensitivity comparisons; all16 validation objectives and4 selections",
+  "limitation": "Figure-specific geometry/value/color checks plus separate visual review; no accessibility-conformance claim."
+}

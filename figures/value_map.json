@@ -1,0 +1,891 @@
+{
+  "primary_gauge_skill": {
+    "items": [
+      {
+        "id": "primary-0-local",
+        "kind": "bar",
+        "axes": 0,
+        "value": 10.602294208455366,
+        "y": -0.17,
+        "half_height": 0.14,
+        "label": "10.6",
+        "interval": [
+          -2.646422770607666,
+          21.556203680871537
+        ]
+      },
+      {
+        "id": "primary-0-pair",
+        "kind": "bar",
+        "axes": 0,
+        "value": 35.86570730664281,
+        "y": 0.17,
+        "half_height": 0.14,
+        "label": "35.9",
+        "interval": [
+          20.339633093386546,
+          49.212636794843604
+        ]
+      },
+      {
+        "id": "primary-1-local",
+        "kind": "bar",
+        "axes": 0,
+        "value": 15.448427712904122,
+        "y": 0.83,
+        "half_height": 0.14,
+        "label": "15.4",
+        "interval": [
+          1.8263127065076257,
+          27.72432106184028
+        ]
+      },
+      {
+        "id": "primary-1-pair",
+        "kind": "bar",
+        "axes": 0,
+        "value": 30.761290798788554,
+        "y": 1.17,
+        "half_height": 0.14,
+        "label": "30.8",
+        "interval": [
+          13.735382499625338,
+          46.63913348208238
+        ]
+      },
+      {
+        "id": "primary-2-local",
+        "kind": "bar",
+        "axes": 0,
+        "value": 15.569614373850992,
+        "y": 1.83,
+        "half_height": 0.14,
+        "label": "15.6",
+        "interval": [
+          7.309740258626801,
+          22.88700875392257
+        ]
+      },
+      {
+        "id": "primary-2-pair",
+        "kind": "bar",
+        "axes": 0,
+        "value": 21.276233598418216,
+        "y": 2.17,
+        "half_height": 0.14,
+        "label": "21.3",
+        "interval": [
+          12.317783134790096,
+          29.698891444320587
+        ]
+      },
+      {
+        "id": "primary-3-local",
+        "kind": "bar",
+        "axes": 0,
+        "value": 19.658489606512497,
+        "y": 2.83,
+        "half_height": 0.14,
+        "label": "19.7",
+        "interval": [
+          12.477999206307572,
+          26.127677601785916
+        ]
+      },
+      {
+        "id": "primary-3-pair",
+        "kind": "bar",
+        "axes": 0,
+        "value": 27.939835008057734,
+        "y": 3.17,
+        "half_height": 0.14,
+        "label": "27.9",
+        "interval": [
+          19.961324663637388,
+          35.90336059025387
+        ]
+      }
+    ],
+    "axes": [
+      {
+        "xlim": [
+          -5.0,
+          60.0
+        ],
+        "ylim": [
+          3.55,
+          -0.55
+        ]
+      }
+    ],
+    "sha256": {
+      "svg": "32c5a6d6d25116d733b6f7921bfb783ff8f3c5275b1c279301f7bccf4d9d73f3",
+      "pdf": "9c513cb270e0d710a1055a5d831b905330a248c0566a36d8d6e4b3fd18ab4235",
+      "png": "91478cc1298cc0645a4013fd8632ab5663f337fd989d52f54591ee793a0c5e0d"
+    }
+  },
+  "gauge_sensitivity": {
+    "items": [
+      {
+        "id": "sensitivity-0-0",
+        "kind": "cell",
+        "axes": 0,
+        "value": 48.08594313906676,
+        "x": 0,
+        "y": 0,
+        "color": "#2a667f",
+        "label": "48.1"
+      },
+      {
+        "id": "sensitivity-0-1",
+        "kind": "cell",
+        "axes": 0,
+        "value": 46.616426889014186,
+        "x": 1,
+        "y": 0,
+        "color": "#306a83",
+        "label": "46.6"
+      },
+      {
+        "id": "sensitivity-0-2",
+        "kind": "cell",
+        "axes": 0,
+        "value": 39.01159105001027,
+        "x": 2,
+        "y": 0,
+        "color": "#518196",
+        "label": "39.0"
+      },
+      {
+        "id": "sensitivity-0-3",
+        "kind": "cell",
+        "axes": 0,
+        "value": 39.333076173396705,
+        "x": 3,
+        "y": 0,
+        "color": "#4f8095",
+        "label": "39.3"
+      },
+      {
+        "id": "sensitivity-0-4",
+        "kind": "cell",
+        "axes": 0,
+        "value": 22.75313861333589,
+        "x": 4,
+        "y": 0,
+        "color": "#96b2bf",
+        "label": "22.8"
+      },
+      {
+        "id": "sensitivity-0-5",
+        "kind": "cell",
+        "axes": 0,
+        "value": 24.357533234550942,
+        "x": 5,
+        "y": 0,
+        "color": "#8fadbb",
+        "label": "24.4"
+      },
+      {
+        "id": "sensitivity-0-6",
+        "kind": "cell",
+        "axes": 0,
+        "value": 19.335791804967805,
+        "x": 6,
+        "y": 0,
+        "color": "#a4bdc7",
+        "label": "19.3"
+      },
+      {
+        "id": "sensitivity-0-7",
+        "kind": "cell",
+        "axes": 0,
+        "value": 22.008177648661654,
+        "x": 7,
+        "y": 0,
+        "color": "#99b5c1",
+        "label": "22.0"
+      },
+      {
+        "id": "sensitivity-1-0",
+        "kind": "cell",
+        "axes": 0,
+        "value": 35.23581981161591,
+        "x": 0,
+        "y": 1,
+        "color": "#618d9f",
+        "label": "35.2"
+      },
+      {
+        "id": "sensitivity-1-1",
+        "kind": "cell",
+        "axes": 0,
+        "value": 35.66416685529935,
+        "x": 1,
+        "y": 1,
+        "color": "#5f8b9e",
+        "label": "35.7"
+      },
+      {
+        "id": "sensitivity-1-2",
+        "kind": "cell",
+        "axes": 0,
+        "value": 26.924248966526132,
+        "x": 2,
+        "y": 1,
+        "color": "#84a6b4",
+        "label": "26.9"
+      },
+      {
+        "id": "sensitivity-1-3",
+        "kind": "cell",
+        "axes": 0,
+        "value": 25.024191070454805,
+        "x": 3,
+        "y": 1,
+        "color": "#8cabb9",
+        "label": "25.0"
+      },
+      {
+        "id": "sensitivity-1-4",
+        "kind": "cell",
+        "axes": 0,
+        "value": 14.286384938885998,
+        "x": 4,
+        "y": 1,
+        "color": "#b9ccd4",
+        "label": "14.3"
+      },
+      {
+        "id": "sensitivity-1-5",
+        "kind": "cell",
+        "axes": 0,
+        "value": 14.767669763498148,
+        "x": 5,
+        "y": 1,
+        "color": "#b7cad3",
+        "label": "14.8"
+      },
+      {
+        "id": "sensitivity-1-6",
+        "kind": "cell",
+        "axes": 0,
+        "value": 11.445008705220673,
+        "x": 6,
+        "y": 1,
+        "color": "#c5d4db",
+        "label": "11.4"
+      },
+      {
+        "id": "sensitivity-1-7",
+        "kind": "cell",
+        "axes": 0,
+        "value": 11.0175217179724,
+        "x": 7,
+        "y": 1,
+        "color": "#c7d6dc",
+        "label": "11.0"
+      },
+      {
+        "id": "sensitivity-2-0",
+        "kind": "cell",
+        "axes": 0,
+        "value": 4.181515946890457,
+        "x": 0,
+        "y": 2,
+        "color": "#e4eaed",
+        "label": "4.2"
+      },
+      {
+        "id": "sensitivity-2-1",
+        "kind": "cell",
+        "axes": 0,
+        "value": 1.802205197261686,
+        "x": 1,
+        "y": 2,
+        "color": "#eef2f3",
+        "label": "1.8"
+      },
+      {
+        "id": "sensitivity-2-2",
+        "kind": "cell",
+        "axes": 0,
+        "value": 4.037703472433085,
+        "x": 2,
+        "y": 2,
+        "color": "#e5ebee",
+        "label": "4.0"
+      },
+      {
+        "id": "sensitivity-2-3",
+        "kind": "cell",
+        "axes": 0,
+        "value": 2.2589817206418727,
+        "x": 3,
+        "y": 2,
+        "color": "#ecf0f2",
+        "label": "2.3"
+      },
+      {
+        "id": "sensitivity-2-4",
+        "kind": "cell",
+        "axes": 0,
+        "value": 23.979959044810574,
+        "x": 4,
+        "y": 2,
+        "color": "#90afbc",
+        "label": "24.0"
+      },
+      {
+        "id": "sensitivity-2-5",
+        "kind": "cell",
+        "axes": 0,
+        "value": 13.112627521527298,
+        "x": 5,
+        "y": 2,
+        "color": "#becfd7",
+        "label": "13.1"
+      },
+      {
+        "id": "sensitivity-2-6",
+        "kind": "cell",
+        "axes": 0,
+        "value": 20.749266449616133,
+        "x": 6,
+        "y": 2,
+        "color": "#9eb8c4",
+        "label": "20.7"
+      },
+      {
+        "id": "sensitivity-2-7",
+        "kind": "cell",
+        "axes": 0,
+        "value": 9.740840841057919,
+        "x": 7,
+        "y": 2,
+        "color": "#cddadf",
+        "label": "9.7"
+      },
+      {
+        "id": "sensitivity-3-0",
+        "kind": "cell",
+        "axes": 0,
+        "value": 2.1938893666550663,
+        "x": 0,
+        "y": 3,
+        "color": "#edf0f2",
+        "label": "2.2"
+      },
+      {
+        "id": "sensitivity-3-1",
+        "kind": "cell",
+        "axes": 0,
+        "value": 3.4586067817214627,
+        "x": 1,
+        "y": 3,
+        "color": "#e7edef",
+        "label": "3.5"
+      },
+      {
+        "id": "sensitivity-3-2",
+        "kind": "cell",
+        "axes": 0,
+        "value": 1.9754018459639533,
+        "x": 2,
+        "y": 3,
+        "color": "#eef1f3",
+        "label": "2.0"
+      },
+      {
+        "id": "sensitivity-3-3",
+        "kind": "cell",
+        "axes": 0,
+        "value": 0.6955587711403366,
+        "x": 3,
+        "y": 3,
+        "color": "#f3f5f6",
+        "label": "0.7"
+      },
+      {
+        "id": "sensitivity-3-4",
+        "kind": "cell",
+        "axes": 0,
+        "value": 21.537908310876908,
+        "x": 4,
+        "y": 3,
+        "color": "#9bb6c2",
+        "label": "21.5"
+      },
+      {
+        "id": "sensitivity-3-5",
+        "kind": "cell",
+        "axes": 0,
+        "value": 27.684975379941445,
+        "x": 5,
+        "y": 3,
+        "color": "#81a3b2",
+        "label": "27.7"
+      },
+      {
+        "id": "sensitivity-3-6",
+        "kind": "cell",
+        "axes": 0,
+        "value": 18.04596078801447,
+        "x": 6,
+        "y": 3,
+        "color": "#a9c1cb",
+        "label": "18.0"
+      },
+      {
+        "id": "sensitivity-3-7",
+        "kind": "cell",
+        "axes": 0,
+        "value": 12.205145921163506,
+        "x": 7,
+        "y": 3,
+        "color": "#c2d2d9",
+        "label": "12.2"
+      },
+      {
+        "id": "sensitivity-4-0",
+        "kind": "cell",
+        "axes": 0,
+        "value": 5.706619224567222,
+        "x": 0,
+        "y": 4,
+        "color": "#dee6ea",
+        "label": "5.7"
+      },
+      {
+        "id": "sensitivity-4-1",
+        "kind": "cell",
+        "axes": 0,
+        "value": 6.255356434929338,
+        "x": 1,
+        "y": 4,
+        "color": "#dbe4e8",
+        "label": "6.3"
+      },
+      {
+        "id": "sensitivity-4-2",
+        "kind": "cell",
+        "axes": 0,
+        "value": 5.5277406477129425,
+        "x": 2,
+        "y": 4,
+        "color": "#dfe6ea",
+        "label": "5.5"
+      },
+      {
+        "id": "sensitivity-4-3",
+        "kind": "cell",
+        "axes": 0,
+        "value": 4.9842767820658,
+        "x": 3,
+        "y": 4,
+        "color": "#e1e8eb",
+        "label": "5.0"
+      },
+      {
+        "id": "sensitivity-4-4",
+        "kind": "cell",
+        "axes": 0,
+        "value": 27.513357101421178,
+        "x": 4,
+        "y": 4,
+        "color": "#81a4b3",
+        "label": "27.5"
+      },
+      {
+        "id": "sensitivity-4-5",
+        "kind": "cell",
+        "axes": 0,
+        "value": 28.08445734426127,
+        "x": 5,
+        "y": 4,
+        "color": "#7fa2b1",
+        "label": "28.1"
+      },
+      {
+        "id": "sensitivity-4-6",
+        "kind": "cell",
+        "axes": 0,
+        "value": 19.341500420944023,
+        "x": 6,
+        "y": 4,
+        "color": "#a4bdc7",
+        "label": "19.3"
+      },
+      {
+        "id": "sensitivity-4-7",
+        "kind": "cell",
+        "axes": 0,
+        "value": 17.935149178189224,
+        "x": 7,
+        "y": 4,
+        "color": "#aac1cb",
+        "label": "17.9"
+      },
+      {
+        "id": "sensitivity-5-0",
+        "kind": "cell",
+        "axes": 0,
+        "value": 8.281345401545238,
+        "x": 0,
+        "y": 5,
+        "color": "#d3dee3",
+        "label": "8.3"
+      },
+      {
+        "id": "sensitivity-5-1",
+        "kind": "cell",
+        "axes": 0,
+        "value": 8.242333282834169,
+        "x": 1,
+        "y": 5,
+        "color": "#d3dee3",
+        "label": "8.2"
+      },
+      {
+        "id": "sensitivity-5-2",
+        "kind": "cell",
+        "axes": 0,
+        "value": 6.9825383568288935,
+        "x": 2,
+        "y": 5,
+        "color": "#d8e2e6",
+        "label": "7.0"
+      },
+      {
+        "id": "sensitivity-5-3",
+        "kind": "cell",
+        "axes": 0,
+        "value": 6.939022343552537,
+        "x": 3,
+        "y": 5,
+        "color": "#d9e2e7",
+        "label": "6.9"
+      },
+      {
+        "id": "sensitivity-5-4",
+        "kind": "cell",
+        "axes": 0,
+        "value": 25.812867844459188,
+        "x": 4,
+        "y": 5,
+        "color": "#89a9b7",
+        "label": "25.8"
+      },
+      {
+        "id": "sensitivity-5-5",
+        "kind": "cell",
+        "axes": 0,
+        "value": 25.819773595948003,
+        "x": 5,
+        "y": 5,
+        "color": "#89a9b7",
+        "label": "25.8"
+      },
+      {
+        "id": "sensitivity-5-6",
+        "kind": "cell",
+        "axes": 0,
+        "value": 23.666667378434326,
+        "x": 6,
+        "y": 5,
+        "color": "#92b0bc",
+        "label": "23.7"
+      },
+      {
+        "id": "sensitivity-5-7",
+        "kind": "cell",
+        "axes": 0,
+        "value": 23.66316944609792,
+        "x": 7,
+        "y": 5,
+        "color": "#92b0bc",
+        "label": "23.7"
+      },
+      {
+        "id": "sensitivity-6-0",
+        "kind": "cell",
+        "axes": 0,
+        "value": 25.26341309818745,
+        "x": 0,
+        "y": 6,
+        "color": "#8babb8",
+        "label": "25.3"
+      },
+      {
+        "id": "sensitivity-6-1",
+        "kind": "cell",
+        "axes": 0,
+        "value": 29.45733549624565,
+        "x": 1,
+        "y": 6,
+        "color": "#799eae",
+        "label": "29.5"
+      },
+      {
+        "id": "sensitivity-6-2",
+        "kind": "cell",
+        "axes": 0,
+        "value": 21.768064846442147,
+        "x": 2,
+        "y": 6,
+        "color": "#9ab5c1",
+        "label": "21.8"
+      },
+      {
+        "id": "sensitivity-6-3",
+        "kind": "cell",
+        "axes": 0,
+        "value": 26.202640716202907,
+        "x": 3,
+        "y": 6,
+        "color": "#87a8b6",
+        "label": "26.2"
+      },
+      {
+        "id": "sensitivity-6-4",
+        "kind": "cell",
+        "axes": 0,
+        "value": 8.594285737121155,
+        "x": 4,
+        "y": 6,
+        "color": "#d2dde2",
+        "label": "8.6"
+      },
+      {
+        "id": "sensitivity-6-5",
+        "kind": "cell",
+        "axes": 0,
+        "value": 11.237305443473488,
+        "x": 5,
+        "y": 6,
+        "color": "#c6d5dc",
+        "label": "11.2"
+      },
+      {
+        "id": "sensitivity-6-6",
+        "kind": "cell",
+        "axes": 0,
+        "value": 7.590756643256635,
+        "x": 6,
+        "y": 6,
+        "color": "#d6e0e5",
+        "label": "7.6"
+      },
+      {
+        "id": "sensitivity-6-7",
+        "kind": "cell",
+        "axes": 0,
+        "value": 9.102842713804538,
+        "x": 7,
+        "y": 6,
+        "color": "#cfdce1",
+        "label": "9.1"
+      },
+      {
+        "id": "sensitivity-7-0",
+        "kind": "cell",
+        "axes": 0,
+        "value": 15.312863085884432,
+        "x": 0,
+        "y": 7,
+        "color": "#b5c9d1",
+        "label": "15.3"
+      },
+      {
+        "id": "sensitivity-7-1",
+        "kind": "cell",
+        "axes": 0,
+        "value": 21.734396763492814,
+        "x": 1,
+        "y": 7,
+        "color": "#9ab5c1",
+        "label": "21.7"
+      },
+      {
+        "id": "sensitivity-7-2",
+        "kind": "cell",
+        "axes": 0,
+        "value": 10.129297519175918,
+        "x": 2,
+        "y": 7,
+        "color": "#cbd8de",
+        "label": "10.1"
+      },
+      {
+        "id": "sensitivity-7-3",
+        "kind": "cell",
+        "axes": 0,
+        "value": 20.460976790247397,
+        "x": 3,
+        "y": 7,
+        "color": "#9fb9c4",
+        "label": "20.5"
+      },
+      {
+        "id": "sensitivity-7-4",
+        "kind": "cell",
+        "axes": 0,
+        "value": 3.9910093128869395,
+        "x": 4,
+        "y": 7,
+        "color": "#e5ebee",
+        "label": "4.0"
+      },
+      {
+        "id": "sensitivity-7-5",
+        "kind": "cell",
+        "axes": 0,
+        "value": 5.556054600563021,
+        "x": 5,
+        "y": 7,
+        "color": "#dee6ea",
+        "label": "5.6"
+      },
+      {
+        "id": "sensitivity-7-6",
+        "kind": "cell",
+        "axes": 0,
+        "value": 1.825444682738464,
+        "x": 6,
+        "y": 7,
+        "color": "#eef1f3",
+        "label": "1.8"
+      },
+      {
+        "id": "sensitivity-7-7",
+        "kind": "cell",
+        "axes": 0,
+        "value": 6.457682263110176,
+        "x": 7,
+        "y": 7,
+        "color": "#dbe3e8",
+        "label": "6.5"
+      }
+    ],
+    "axes": [
+      {
+        "xlim": [
+          -0.5,
+          7.5
+        ],
+        "ylim": [
+          7.5,
+          -0.5
+        ]
+      }
+    ],
+    "sha256": {
+      "svg": "6ece9abf7547e720a3f83560d88462d76584a95d00f8aee833ff8f64d600f521",
+      "pdf": "734ac20ec3293154868f16b1e57607cad52305bc6d2b003af0b49a27321e41cc",
+      "png": "a10e72a38f5731ffbcedee577ed54324bd0dc94e3958b6da3ba04f39bca46e6f"
+    }
+  },
+  "gauge_validation": {
+    "items": [
+      {
+        "id": "validation-3-local",
+        "kind": "line",
+        "axes": 0,
+        "x": [
+          -3,
+          -2,
+          -1,
+          0
+        ],
+        "y": [
+          0.08839745701102346,
+          0.08832922261648318,
+          0.08790407532977428,
+          0.08969852700212262
+        ],
+        "selected_index": 2
+      },
+      {
+        "id": "validation-3-pair",
+        "kind": "line",
+        "axes": 0,
+        "x": [
+          -3,
+          -2,
+          -1,
+          0
+        ],
+        "y": [
+          0.07531532220315462,
+          0.07437901376151419,
+          0.07592505106806618,
+          0.08193460846162859
+        ],
+        "selected_index": 1
+      },
+      {
+        "id": "validation-1-local",
+        "kind": "line",
+        "axes": 1,
+        "x": [
+          -3,
+          -2,
+          -1,
+          0
+        ],
+        "y": [
+          0.020215420801817388,
+          0.020207900258913055,
+          0.02019162229213564,
+          0.021274282766729956
+        ],
+        "selected_index": 2
+      },
+      {
+        "id": "validation-1-pair",
+        "kind": "line",
+        "axes": 1,
+        "x": [
+          -3,
+          -2,
+          -1,
+          0
+        ],
+        "y": [
+          0.013876016556475947,
+          0.014106028016719268,
+          0.01559013256339634,
+          0.0185301766728219
+        ],
+        "selected_index": 0
+      }
+    ],
+    "axes": [
+      {
+        "xlim": [
+          -3.15,
+          0.15
+        ],
+        "ylim": [
+          0.0,
+          0.11
+        ]
+      },
+      {
+        "xlim": [
+          -3.15,
+          0.15
+        ],
+        "ylim": [
+          0.0,
+          0.03
+        ]
+      }
+    ],
+    "sha256": {
+      "svg": "1e3741d6c9103e02250d76331ac0829fe7d9acbffdcaca78cd7098811538a007",
+      "pdf": "90cb6fa5bbe8200f86beb2e113ef56c7902bbd6280faa94eb42d51ffcc877d5a",
+      "png": "9b329382f889f00ad4ba84f5dba910c3a9d0b0e8c3fc21b23c914776af866ad6"
+    }
+  }
+}
