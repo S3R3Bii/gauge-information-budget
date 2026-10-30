@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-30T23:46:54.148232+00:00",
+  "timestamp_utc": "2026-10-30T23:47:51.746665+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 17,
+  "files_checked": 25,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
@@ -14,13 +14,21 @@
     "SOURCES.md": "0a8f1d62ec1d20db64b996e56d6b849ab8244492c01b23fdfde775edd93f9707",
     "SOURCE_HOLD.md": "8b90fae9d13ae9999685cc1fe094f373549a5a752485c9b627a0de605eacea12",
     "SOURCE_SCHEMA_UPDATE.md": "c3aa5de16f4b88909f4e1dfe3e3480390aa97f2efdda71d5326b112dd2b48c5a",
-    "V2_DESIGN_RECEIPT.json": "883773847680749b02e4f18ac414f11d944e5df62361a5e3b0f285ec6d1a8566",
+    "V2_DESIGN_RECEIPT.json": "7f533a57e5f1f04ddbb061bb90a822b557f353c6f0d094ec1003f18396bce97e",
+    "data/v2/INDEPENDENT_SOURCE_CHECK.json": "7ba15b99356050f79a0e8f79a56eaf9a8a392807015dee7e85d4f8041a47b4ac",
+    "data/v2/SOURCE_CHECK.json": "29608b31e92e0fb2e4957fe5b002f397a25de8c99731002cc3759961782d298b",
+    "data/v2/measurements.csv": "1cfc0380be9bc5db52a5d39f048334929cdab53948ea464d1923c2d6ad9dcdd9",
+    "data/v2/source_cells.csv.gz": "38bc2c55aec0749de8411570bddbcb7e03e597bb00ec08198d8f7d602f23ee39",
+    "data/v2/source_coverage.csv": "b803f21b12458ca7663fd04c17295922478a336fb558062b10940776efe71a69",
+    "data/v2/source_manifest.json": "c917fdf3223897adc67b5427b5640a790ca7ddd868d7673f46b9de0d61f8e003",
     "requirements.txt": "5d1fb6514d4dcf4d3d78f72c73fa3d9026a99d1f8e80d1bd12965c68982abced",
     "results/SOURCE_FAILURE.json": "6bc6a01454469e4ee70c5a005c772c11059725151851a962963b153b893b2d39",
     "src/config.py": "4e34fe7fe9ae9716d1ae031f0561a92824415a6f447a0c964caeaca52aa5cc36",
     "src/ingest.py": "149b606987227ed2baa034a27a81bf6cbdebc6b7fefc214a230253f9dc2c1ada",
+    "src/ingest_v2.py": "1523a5429115069418503552a96dc50b1c903eafd80d2d24a8cbad430be6a37f",
     "src/retrieve.py": "9b542204ac5d4c64f1e59b7233811fd83dc36795dde335bcaf777def218bb15f",
-    "src/verify_source.py": "3b00eef3dbde77495dddb5e410babdb2fe8ae6f2f4e15324b6791e2e56d49f2c"
+    "src/verify_source.py": "3b00eef3dbde77495dddb5e410babdb2fe8ae6f2f4e15324b6791e2e56d49f2c",
+    "src/verify_source_v2.py": "a6fe15acd6f1970335620a0ebf7710ccbbf79ca4e0193e18d1bce63e357a5101"
   },
   "raw_source_members_excluded": true,
   "unapproved_manuscripts_excluded": true,

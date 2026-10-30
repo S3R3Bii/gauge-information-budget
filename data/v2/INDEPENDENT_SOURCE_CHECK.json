@@ -1,0 +1,14 @@
+{
+  "status": "PASS_INDEPENDENT_V2_SOURCE",
+  "original_v1_gate": "FAILED_UNCHANGED",
+  "predictive_metrics_computed": false,
+  "source_rows": 14864,
+  "selected_source_field_checks": 148640,
+  "projected_scalar_checks": 163504,
+  "normalized_scalar_checks": 89184,
+  "station_year_checks": 40,
+  "public_aggregate_sha256": "38bc2c55aec0749de8411570bddbcb7e03e597bb00ec08198d8f7d602f23ee39",
+  "public_manifest_sha256": "c917fdf3223897adc67b5427b5640a790ca7ddd868d7673f46b9de0d61f8e003",
+  "methods": "Complete independent source-row map using strptime/Decimal; SQLite unique station/date and coverage counts; all private response, metadata and public hashes reconciled",
+  "limits": "Selected public gauge facts verified; no historical operational-vintage or hydrologic causal claim"
+}
