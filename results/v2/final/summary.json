@@ -1,0 +1,61 @@
+{
+  "status": "EXECUTED_FROZEN_V2_FINAL",
+  "primary_panels": [
+    {
+      "panel": "mississippi--2023",
+      "n": 365,
+      "persistence_log_mse": 0.025204323234357815,
+      "local_log_mse": 0.022532086731801126,
+      "pair_log_mse": 0.016164614434502872,
+      "local_skill": 0.10602294208455365,
+      "pair_skill": 0.35865707306642813,
+      "pair_minus_local": 0.2526341309818745
+    },
+    {
+      "panel": "mississippi--2024",
+      "n": 366,
+      "persistence_log_mse": 0.024928515467951173,
+      "local_log_mse": 0.021077451775984614,
+      "pair_log_mse": 0.017260182333033728,
+      "local_skill": 0.15448427712904123,
+      "pair_skill": 0.30761290798788554,
+      "pair_minus_local": 0.15312863085884432
+    },
+    {
+      "panel": "susquehanna--2023",
+      "n": 365,
+      "persistence_log_mse": 0.13527327174215634,
+      "local_log_mse": 0.11421174498101105,
+      "pair_log_mse": 0.10649221445007209,
+      "local_skill": 0.15569614373850993,
+      "pair_skill": 0.21276233598418215,
+      "pair_minus_local": 0.05706619224567222
+    },
+    {
+      "panel": "susquehanna--2024",
+      "n": 366,
+      "persistence_log_mse": 0.18562747413736838,
+      "local_log_mse": 0.14913591642724214,
+      "pair_log_mse": 0.1337634641337626,
+      "local_skill": 0.19658489606512497,
+      "pair_skill": 0.27939835008057734,
+      "pair_minus_local": 0.08281345401545237
+    }
+  ],
+  "equal_panel_mean": {
+    "local_skill": 0.15319706475430744,
+    "pair_skill": 0.2896076667797683,
+    "pair_minus_local": 0.13641060202546085
+  },
+  "selected": {
+    "lag3--local": 0.1,
+    "lag3--pair": 0.01,
+    "lag1--local": 0.1,
+    "lag1--pair": 0.001
+  },
+  "model_panel_rows": 192,
+  "prediction_rows": 59154,
+  "new_selection_made": false,
+  "operational_availability": "unverified; later Approved daily values under synthetic date lags",
+  "v1_original_gate": "FAILED_UNCHANGED"
+}
