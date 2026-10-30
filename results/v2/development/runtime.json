@@ -1,0 +1,6 @@
+{
+  "python": "3.10.11",
+  "numpy": "2.2.5",
+  "elapsed_seconds": 0.19296090002171695,
+  "scope": "Measured local execution only; not a production-latency benchmark"
+}

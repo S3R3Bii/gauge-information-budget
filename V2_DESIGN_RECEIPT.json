@@ -1,25 +1,40 @@
 {
-  "timestamp_utc": "2026-10-30T23:47:50.494315+00:00",
-  "status": "SOURCE_PASS_ANALYSIS_PENDING",
+  "timestamp_utc": "2026-10-30T23:52:56.055940+00:00",
+  "status": "DEVELOPMENT_PASS_FREEZE_AND_FINAL_PENDING",
   "original_failed_revision": "7c854e2",
   "original_failed_scope": "2020\u20132025 Approved-day coverage",
   "v2_scope": "2019-12 warmup;2020\u20132021 train;2022 development validation;2023\u20132024 final",
   "source_quality_informed_period": true,
   "all_source_values_present_not_blinded": true,
-  "predictive_results_seen": false,
+  "predictive_results_seen": "Development only; no held-basin or final-period scores",
   "source_gate": "PASS_40_STATION_YEARS",
   "release": "pending",
   "grade": 2,
   "review_budget": {
-    "round": 1,
+    "round": 2,
     "max_rounds": 3,
     "max_active_review_minutes": 45,
-    "max_review_tool_calls": 60
+    "max_review_tool_calls": 60,
+    "accounting": "Exact active-review minutes/tool calls not separately instrumented; acquisition/execution distinct. No additional review rounds planned beyond final/presentation phase."
   },
   "source_rows": 14864,
   "usable_approved_rows": 14864,
   "qualified_usable_rows": 1421,
   "independent_check": "Separate complete native record map and metadata hashes; 148640 native field checks,163504 projected scalar checks,89184 normalized scalar checks,40 SQLite coverage gates",
   "original_v1_gate": "FAILED_UNCHANGED",
-  "source_requests_this_amendment": 0
+  "source_requests_this_amendment": 0,
+  "development": {
+    "fits": 32,
+    "fold_scores": 36,
+    "candidate_objectives": 16,
+    "predictions": 13140,
+    "independent_conditions": 216162,
+    "selected": {
+      "lag3--local": 0.1,
+      "lag3--pair": 0.01,
+      "lag1--local": 0.1,
+      "lag1--pair": 0.001
+    },
+    "fixtures": 23
+  }
 }

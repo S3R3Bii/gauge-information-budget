@@ -1,0 +1,12 @@
+{
+  "status": "PASS_INDEPENDENT_V2_ANALYSIS",
+  "phase": "development",
+  "conditions": 216162,
+  "predictions": 13140,
+  "fits": 32,
+  "metric_rows": 36,
+  "maximum_log_space_difference": 1.3600232051658168e-14,
+  "maximum_cfs_difference_fraction_of_declared_tolerance": 2.6214674427854e-05,
+  "method": "Separate source CSV/SQLite date joins; augmented-design least-squares SVD rather than normal equations; scalar forecasts; SQL error aggregates, independent selector and retained-draw scalar circular-block checks; no production helpers imported",
+  "original_v1_gate": "FAILED_UNCHANGED"
+}

@@ -1,0 +1,1778 @@
+{
+  "wisconsin--lag3--local--lambda0.001": {
+    "basin": "wisconsin",
+    "lag": 3,
+    "model": "local",
+    "penalty": 0.001,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine"
+    ],
+    "means": [
+      9.244422052453325,
+      -0.0006448419322842051,
+      -0.003966647238004125,
+      1.4707569349290188e-06,
+      0.0006840135040082516
+    ],
+    "scales": [
+      0.3966508777778346,
+      0.10454128423722936,
+      0.3470173210263773,
+      0.7068648843886011,
+      0.7073482645356899
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.002958733560702166,
+    "coefficients": [
+      -0.0679025152903115,
+      0.07051184373103755,
+      -0.0358948522891804,
+      0.027378726709136644,
+      -0.01213275147533273
+    ],
+    "train_mean_cfs": 11260.232558139534,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "wisconsin--lag3--local--lambda0.01": {
+    "basin": "wisconsin",
+    "lag": 3,
+    "model": "local",
+    "penalty": 0.01,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine"
+    ],
+    "means": [
+      9.244422052453325,
+      -0.0006448419322842051,
+      -0.003966647238004125,
+      1.4707569349290188e-06,
+      0.0006840135040082516
+    ],
+    "scales": [
+      0.3966508777778346,
+      0.10454128423722936,
+      0.3470173210263773,
+      0.7068648843886011,
+      0.7073482645356899
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.002958733560702166,
+    "coefficients": [
+      -0.06704730083921635,
+      0.06970015998913301,
+      -0.0356727160454754,
+      0.026855365664335024,
+      -0.011832892825105802
+    ],
+    "train_mean_cfs": 11260.232558139534,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "wisconsin--lag3--local--lambda0.1": {
+    "basin": "wisconsin",
+    "lag": 3,
+    "model": "local",
+    "penalty": 0.1,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine"
+    ],
+    "means": [
+      9.244422052453325,
+      -0.0006448419322842051,
+      -0.003966647238004125,
+      1.4707569349290188e-06,
+      0.0006840135040082516
+    ],
+    "scales": [
+      0.3966508777778346,
+      0.10454128423722936,
+      0.3470173210263773,
+      0.7068648843886011,
+      0.7073482645356899
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.002958733560702166,
+    "coefficients": [
+      -0.05974529035334974,
+      0.062453185331626915,
+      -0.033423839963639304,
+      0.022461616063843805,
+      -0.009366772188137211
+    ],
+    "train_mean_cfs": 11260.232558139534,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "wisconsin--lag3--local--lambda1.0": {
+    "basin": "wisconsin",
+    "lag": 3,
+    "model": "local",
+    "penalty": 1.0,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine"
+    ],
+    "means": [
+      9.244422052453325,
+      -0.0006448419322842051,
+      -0.003966647238004125,
+      1.4707569349290188e-06,
+      0.0006840135040082516
+    ],
+    "scales": [
+      0.3966508777778346,
+      0.10454128423722936,
+      0.3470173210263773,
+      0.7068648843886011,
+      0.7073482645356899
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.002958733560702166,
+    "coefficients": [
+      -0.030462538604726724,
+      0.03009094628074119,
+      -0.019317921621068383,
+      0.007451029273570663,
+      -0.0018976555893559356
+    ],
+    "train_mean_cfs": 11260.232558139534,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "wisconsin--lag3--pair--lambda0.001": {
+    "basin": "wisconsin",
+    "lag": 3,
+    "model": "pair",
+    "penalty": 0.001,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine",
+      "additional_level",
+      "additional_one_day_change",
+      "additional_seven_day_change"
+    ],
+    "means": [
+      9.244422052453325,
+      -0.0006448419322842051,
+      -0.003966647238004125,
+      1.4707569349290188e-06,
+      0.0006840135040082516,
+      8.54970319972566,
+      -0.0005606156628563024,
+      -0.0033275492811385625
+    ],
+    "scales": [
+      0.3966508777778346,
+      0.10454128423722936,
+      0.3470173210263773,
+      0.7068648843886011,
+      0.7073482645356899,
+      0.5064180801241621,
+      0.1891052266465042,
+      0.5275849766807544
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.002958733560702166,
+    "coefficients": [
+      -0.1644378502788921,
+      0.026105823993651054,
+      -0.03302175422446438,
+      0.00580844993542256,
+      -0.005206019662709059,
+      0.14402978872133082,
+      0.02809440042084668,
+      0.043171168515682486
+    ],
+    "train_mean_cfs": 11260.232558139534,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "wisconsin--lag3--pair--lambda0.01": {
+    "basin": "wisconsin",
+    "lag": 3,
+    "model": "pair",
+    "penalty": 0.01,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine",
+      "additional_level",
+      "additional_one_day_change",
+      "additional_seven_day_change"
+    ],
+    "means": [
+      9.244422052453325,
+      -0.0006448419322842051,
+      -0.003966647238004125,
+      1.4707569349290188e-06,
+      0.0006840135040082516,
+      8.54970319972566,
+      -0.0005606156628563024,
+      -0.0033275492811385625
+    ],
+    "scales": [
+      0.3966508777778346,
+      0.10454128423722936,
+      0.3470173210263773,
+      0.7068648843886011,
+      0.7073482645356899,
+      0.5064180801241621,
+      0.1891052266465042,
+      0.5275849766807544
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.002958733560702166,
+    "coefficients": [
+      -0.15247497260527146,
+      0.025561816950906084,
+      -0.03614146334728442,
+      0.006425596522889776,
+      -0.005268036541573422,
+      0.13116294694772931,
+      0.029831928881051965,
+      0.049076820898112945
+    ],
+    "train_mean_cfs": 11260.232558139534,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "wisconsin--lag3--pair--lambda0.1": {
+    "basin": "wisconsin",
+    "lag": 3,
+    "model": "pair",
+    "penalty": 0.1,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine",
+      "additional_level",
+      "additional_one_day_change",
+      "additional_seven_day_change"
+    ],
+    "means": [
+      9.244422052453325,
+      -0.0006448419322842051,
+      -0.003966647238004125,
+      1.4707569349290188e-06,
+      0.0006840135040082516,
+      8.54970319972566,
+      -0.0005606156628563024,
+      -0.0033275492811385625
+    ],
+    "scales": [
+      0.3966508777778346,
+      0.10454128423722936,
+      0.3470173210263773,
+      0.7068648843886011,
+      0.7073482645356899,
+      0.5064180801241621,
+      0.1891052266465042,
+      0.5275849766807544
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.002958733560702166,
+    "coefficients": [
+      -0.09892667605315739,
+      0.023449911755403327,
+      -0.04487845186366724,
+      0.008038329748765732,
+      -0.004851252354235733,
+      0.0754408873067308,
+      0.03810630093710644,
+      0.06782574677612974
+    ],
+    "train_mean_cfs": 11260.232558139534,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "wisconsin--lag3--pair--lambda1.0": {
+    "basin": "wisconsin",
+    "lag": 3,
+    "model": "pair",
+    "penalty": 1.0,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine",
+      "additional_level",
+      "additional_one_day_change",
+      "additional_seven_day_change"
+    ],
+    "means": [
+      9.244422052453325,
+      -0.0006448419322842051,
+      -0.003966647238004125,
+      1.4707569349290188e-06,
+      0.0006840135040082516,
+      8.54970319972566,
+      -0.0005606156628563024,
+      -0.0033275492811385625
+    ],
+    "scales": [
+      0.3966508777778346,
+      0.10454128423722936,
+      0.3470173210263773,
+      0.7068648843886011,
+      0.7073482645356899,
+      0.5064180801241621,
+      0.1891052266465042,
+      0.5275849766807544
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.002958733560702166,
+    "coefficients": [
+      -0.035983856098831146,
+      0.01715269286121969,
+      -0.025388250765959474,
+      0.0036116012347219826,
+      -0.0009596176802815424,
+      0.022782540319604163,
+      0.035925890418372484,
+      0.04529051036090532
+    ],
+    "train_mean_cfs": 11260.232558139534,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "wisconsin--lag1--local--lambda0.001": {
+    "basin": "wisconsin",
+    "lag": 1,
+    "model": "local",
+    "penalty": 0.001,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine"
+    ],
+    "means": [
+      9.242358200515246,
+      -0.0010574344872387872,
+      -0.004665808376898607,
+      1.4707569349290188e-06,
+      0.0006840135040082516
+    ],
+    "scales": [
+      0.39709172104319107,
+      0.1042603261805896,
+      0.3468933298766411,
+      0.7068648843886011,
+      0.7073482645356899
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.0008948816226235527,
+    "coefficients": [
+      -0.019431085819726707,
+      0.03927485684237746,
+      -0.005795692687872791,
+      0.007750737554984076,
+      -0.003282981862396231
+    ],
+    "train_mean_cfs": 11260.232558139534,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "wisconsin--lag1--local--lambda0.01": {
+    "basin": "wisconsin",
+    "lag": 1,
+    "model": "local",
+    "penalty": 0.01,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine"
+    ],
+    "means": [
+      9.242358200515246,
+      -0.0010574344872387872,
+      -0.004665808376898607,
+      1.4707569349290188e-06,
+      0.0006840135040082516
+    ],
+    "scales": [
+      0.39709172104319107,
+      0.1042603261805896,
+      0.3468933298766411,
+      0.7068648843886011,
+      0.7073482645356899
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.0008948816226235527,
+    "coefficients": [
+      -0.019163428407710917,
+      0.0388672454277455,
+      -0.005723839522888042,
+      0.007594444969372602,
+      -0.0031949226866826116
+    ],
+    "train_mean_cfs": 11260.232558139534,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "wisconsin--lag1--local--lambda0.1": {
+    "basin": "wisconsin",
+    "lag": 1,
+    "model": "local",
+    "penalty": 0.1,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine"
+    ],
+    "means": [
+      9.242358200515246,
+      -0.0010574344872387872,
+      -0.004665808376898607,
+      1.4707569349290188e-06,
+      0.0006840135040082516
+    ],
+    "scales": [
+      0.39709172104319107,
+      0.1042603261805896,
+      0.3468933298766411,
+      0.7068648843886011,
+      0.7073482645356899
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.0008948816226235527,
+    "coefficients": [
+      -0.016873653528978655,
+      0.03521543645885094,
+      -0.005047003938253832,
+      0.0062883022417041445,
+      -0.0024719042006557533
+    ],
+    "train_mean_cfs": 11260.232558139534,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "wisconsin--lag1--local--lambda1.0": {
+    "basin": "wisconsin",
+    "lag": 1,
+    "model": "local",
+    "penalty": 1.0,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine"
+    ],
+    "means": [
+      9.242358200515246,
+      -0.0010574344872387872,
+      -0.004665808376898607,
+      1.4707569349290188e-06,
+      0.0006840135040082516
+    ],
+    "scales": [
+      0.39709172104319107,
+      0.1042603261805896,
+      0.3468933298766411,
+      0.7068648843886011,
+      0.7073482645356899
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.0008948816226235527,
+    "coefficients": [
+      -0.007876816875887234,
+      0.018263711760140605,
+      -0.0018947024145097588,
+      0.0019897346295691494,
+      -0.0003580867535458697
+    ],
+    "train_mean_cfs": 11260.232558139534,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "wisconsin--lag1--pair--lambda0.001": {
+    "basin": "wisconsin",
+    "lag": 1,
+    "model": "pair",
+    "penalty": 0.001,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine",
+      "additional_level",
+      "additional_one_day_change",
+      "additional_seven_day_change"
+    ],
+    "means": [
+      9.242358200515246,
+      -0.0010574344872387872,
+      -0.004665808376898607,
+      1.4707569349290188e-06,
+      0.0006840135040082516,
+      8.547157819914982,
+      -0.001556468849808552,
+      -0.004647315294108237
+    ],
+    "scales": [
+      0.39709172104319107,
+      0.1042603261805896,
+      0.3468933298766411,
+      0.7068648843886011,
+      0.7073482645356899,
+      0.5063372929897118,
+      0.1886630552686047,
+      0.5269240208600036
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.0008948816226235527,
+    "coefficients": [
+      -0.06543220002725149,
+      0.023432874335177607,
+      -0.008803531443890832,
+      -0.00030059322855286347,
+      -0.00085421303818513,
+      0.063400128289645,
+      -0.016044271686149872,
+      0.01825277081496404
+    ],
+    "train_mean_cfs": 11260.232558139534,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "wisconsin--lag1--pair--lambda0.01": {
+    "basin": "wisconsin",
+    "lag": 1,
+    "model": "pair",
+    "penalty": 0.01,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine",
+      "additional_level",
+      "additional_one_day_change",
+      "additional_seven_day_change"
+    ],
+    "means": [
+      9.242358200515246,
+      -0.0010574344872387872,
+      -0.004665808376898607,
+      1.4707569349290188e-06,
+      0.0006840135040082516,
+      8.547157819914982,
+      -0.001556468849808552,
+      -0.004647315294108237
+    ],
+    "scales": [
+      0.39709172104319107,
+      0.1042603261805896,
+      0.3468933298766411,
+      0.7068648843886011,
+      0.7073482645356899,
+      0.5063372929897118,
+      0.1886630552686047,
+      0.5269240208600036
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.0008948816226235527,
+    "coefficients": [
+      -0.060186680189947474,
+      0.02307827365125093,
+      -0.010109333712248569,
+      1.4931952855440648e-05,
+      -0.0008889522412440638,
+      0.05770870272047286,
+      -0.014998875655125572,
+      0.020820291647630076
+    ],
+    "train_mean_cfs": 11260.232558139534,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "wisconsin--lag1--pair--lambda0.1": {
+    "basin": "wisconsin",
+    "lag": 1,
+    "model": "pair",
+    "penalty": 0.1,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine",
+      "additional_level",
+      "additional_one_day_change",
+      "additional_seven_day_change"
+    ],
+    "means": [
+      9.242358200515246,
+      -0.0010574344872387872,
+      -0.004665808376898607,
+      1.4707569349290188e-06,
+      0.0006840135040082516,
+      8.547157819914982,
+      -0.001556468849808552,
+      -0.004647315294108237
+    ],
+    "scales": [
+      0.39709172104319107,
+      0.1042603261805896,
+      0.3468933298766411,
+      0.7068648843886011,
+      0.7073482645356899,
+      0.5063372929897118,
+      0.1886630552686047,
+      0.5269240208600036
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.0008948816226235527,
+    "coefficients": [
+      -0.0368756807704965,
+      0.021098300733688038,
+      -0.013489027182851858,
+      0.0010876723618779074,
+      -0.0008541633962338945,
+      0.033006072486657906,
+      -0.00889090510064104,
+      0.028867498798825355
+    ],
+    "train_mean_cfs": 11260.232558139534,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "wisconsin--lag1--pair--lambda1.0": {
+    "basin": "wisconsin",
+    "lag": 1,
+    "model": "pair",
+    "penalty": 1.0,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine",
+      "additional_level",
+      "additional_one_day_change",
+      "additional_seven_day_change"
+    ],
+    "means": [
+      9.242358200515246,
+      -0.0010574344872387872,
+      -0.004665808376898607,
+      1.4707569349290188e-06,
+      0.0006840135040082516,
+      8.547157819914982,
+      -0.001556468849808552,
+      -0.004647315294108237
+    ],
+    "scales": [
+      0.39709172104319107,
+      0.1042603261805896,
+      0.3468933298766411,
+      0.7068648843886011,
+      0.7073482645356899,
+      0.5063372929897118,
+      0.1886630552686047,
+      0.5269240208600036
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.0008948816226235527,
+    "coefficients": [
+      -0.011184032040284543,
+      0.013380628294673352,
+      -0.005529629388649302,
+      0.0005391447911888474,
+      5.397173172152612e-05,
+      0.00992426356528989,
+      0.001575344730937662,
+      0.019093643406808997
+    ],
+    "train_mean_cfs": 11260.232558139534,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "delaware--lag3--local--lambda0.001": {
+    "basin": "delaware",
+    "lag": 3,
+    "model": "local",
+    "penalty": 0.001,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine"
+    ],
+    "means": [
+      9.30731618052535,
+      1.327296042545154e-05,
+      -0.0019242610327833169,
+      1.4707569349290188e-06,
+      0.0006840135040082516
+    ],
+    "scales": [
+      0.6086782675674607,
+      0.2099155972278129,
+      0.6035027040914239,
+      0.7068648843886011,
+      0.7073482645356899
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.000791674162671235,
+    "coefficients": [
+      -0.15560031251655387,
+      0.06555391319336365,
+      -0.05339960120026561,
+      0.03354563254485719,
+      0.033045066149355144
+    ],
+    "train_mean_cfs": 13490.068399452804,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "delaware--lag3--local--lambda0.01": {
+    "basin": "delaware",
+    "lag": 3,
+    "model": "local",
+    "penalty": 0.01,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine"
+    ],
+    "means": [
+      9.30731618052535,
+      1.327296042545154e-05,
+      -0.0019242610327833169,
+      1.4707569349290188e-06,
+      0.0006840135040082516
+    ],
+    "scales": [
+      0.6086782675674607,
+      0.2099155972278129,
+      0.6035027040914239,
+      0.7068648843886011,
+      0.7073482645356899
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.000791674162671235,
+    "coefficients": [
+      -0.1536569139008047,
+      0.06470658743198057,
+      -0.05363377717849917,
+      0.032749377473130954,
+      0.032448902977149835
+    ],
+    "train_mean_cfs": 13490.068399452804,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "delaware--lag3--local--lambda0.1": {
+    "basin": "delaware",
+    "lag": 3,
+    "model": "local",
+    "penalty": 0.1,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine"
+    ],
+    "means": [
+      9.30731618052535,
+      1.327296042545154e-05,
+      -0.0019242610327833169,
+      1.4707569349290188e-06,
+      0.0006840135040082516
+    ],
+    "scales": [
+      0.6086782675674607,
+      0.2099155972278129,
+      0.6035027040914239,
+      0.7068648843886011,
+      0.7073482645356899
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.000791674162671235,
+    "coefficients": [
+      -0.13716826932469672,
+      0.05711148751153909,
+      -0.05466684780989208,
+      0.02620830259703708,
+      0.027424698870407417
+    ],
+    "train_mean_cfs": 13490.068399452804,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "delaware--lag3--local--lambda1.0": {
+    "basin": "delaware",
+    "lag": 3,
+    "model": "local",
+    "penalty": 1.0,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine"
+    ],
+    "means": [
+      9.30731618052535,
+      1.327296042545154e-05,
+      -0.0019242610327833169,
+      1.4707569349290188e-06,
+      0.0006840135040082516
+    ],
+    "scales": [
+      0.6086782675674607,
+      0.2099155972278129,
+      0.6035027040914239,
+      0.7068648843886011,
+      0.7073482645356899
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.000791674162671235,
+    "coefficients": [
+      -0.07187056494834461,
+      0.023887620046068096,
+      -0.041394680663885235,
+      0.00614857022597173,
+      0.009706159670709404
+    ],
+    "train_mean_cfs": 13490.068399452804,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "delaware--lag3--pair--lambda0.001": {
+    "basin": "delaware",
+    "lag": 3,
+    "model": "pair",
+    "penalty": 0.001,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine",
+      "additional_level",
+      "additional_one_day_change",
+      "additional_seven_day_change"
+    ],
+    "means": [
+      9.30731618052535,
+      1.327296042545154e-05,
+      -0.0019242610327833169,
+      1.4707569349290188e-06,
+      0.0006840135040082516,
+      9.227299935063732,
+      0.00010495859408940364,
+      -0.0014791276900851709
+    ],
+    "scales": [
+      0.6086782675674607,
+      0.2099155972278129,
+      0.6035027040914239,
+      0.7068648843886011,
+      0.7073482645356899,
+      0.6089720046222798,
+      0.2257322025279928,
+      0.6040387980524436
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.000791674162671235,
+    "coefficients": [
+      -0.47690142171449806,
+      -0.02162791886941329,
+      -0.06267647745566893,
+      0.0402933036826641,
+      0.041985111445859216,
+      0.32444136726087863,
+      0.07297334313363392,
+      0.0174017471418008
+    ],
+    "train_mean_cfs": 13490.068399452804,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "delaware--lag3--pair--lambda0.01": {
+    "basin": "delaware",
+    "lag": 3,
+    "model": "pair",
+    "penalty": 0.01,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine",
+      "additional_level",
+      "additional_one_day_change",
+      "additional_seven_day_change"
+    ],
+    "means": [
+      9.30731618052535,
+      1.327296042545154e-05,
+      -0.0019242610327833169,
+      1.4707569349290188e-06,
+      0.0006840135040082516,
+      9.227299935063732,
+      0.00010495859408940364,
+      -0.0014791276900851709
+    ],
+    "scales": [
+      0.6086782675674607,
+      0.2099155972278129,
+      0.6035027040914239,
+      0.7068648843886011,
+      0.7073482645356899,
+      0.6089720046222798,
+      0.2257322025279928,
+      0.6040387980524436
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.000791674162671235,
+    "coefficients": [
+      -0.22639678370469585,
+      -0.04064391500020614,
+      -0.09501112125036455,
+      0.03313261717670285,
+      0.03394386317770619,
+      0.07754630681245035,
+      0.10518410759633634,
+      0.04814999383698236
+    ],
+    "train_mean_cfs": 13490.068399452804,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "delaware--lag3--pair--lambda0.1": {
+    "basin": "delaware",
+    "lag": 3,
+    "model": "pair",
+    "penalty": 0.1,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine",
+      "additional_level",
+      "additional_one_day_change",
+      "additional_seven_day_change"
+    ],
+    "means": [
+      9.30731618052535,
+      1.327296042545154e-05,
+      -0.0019242610327833169,
+      1.4707569349290188e-06,
+      0.0006840135040082516,
+      9.227299935063732,
+      0.00010495859408940364,
+      -0.0014791276900851709
+    ],
+    "scales": [
+      0.6086782675674607,
+      0.2099155972278129,
+      0.6035027040914239,
+      0.7068648843886011,
+      0.7073482645356899,
+      0.6089720046222798,
+      0.2257322025279928,
+      0.6040387980524436
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.000791674162671235,
+    "coefficients": [
+      -0.09910270962236796,
+      -0.011236869372242943,
+      -0.04996548270238419,
+      0.026072550190850714,
+      0.026675642351512693,
+      -0.04125695723329837,
+      0.08326379938929546,
+      -0.001527861764399272
+    ],
+    "train_mean_cfs": 13490.068399452804,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "delaware--lag3--pair--lambda1.0": {
+    "basin": "delaware",
+    "lag": 3,
+    "model": "pair",
+    "penalty": 1.0,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine",
+      "additional_level",
+      "additional_one_day_change",
+      "additional_seven_day_change"
+    ],
+    "means": [
+      9.30731618052535,
+      1.327296042545154e-05,
+      -0.0019242610327833169,
+      1.4707569349290188e-06,
+      0.0006840135040082516,
+      9.227299935063732,
+      0.00010495859408940364,
+      -0.0014791276900851709
+    ],
+    "scales": [
+      0.6086782675674607,
+      0.2099155972278129,
+      0.6035027040914239,
+      0.7068648843886011,
+      0.7073482645356899,
+      0.6089720046222798,
+      0.2257322025279928,
+      0.6040387980524436
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.000791674162671235,
+    "coefficients": [
+      -0.05061334075870674,
+      0.013390845739608507,
+      -0.02837426976499582,
+      0.008355921435343054,
+      0.010804736968388396,
+      -0.042478279040183226,
+      0.0321556355434405,
+      -0.019592924827595934
+    ],
+    "train_mean_cfs": 13490.068399452804,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "delaware--lag1--local--lambda0.001": {
+    "basin": "delaware",
+    "lag": 1,
+    "model": "local",
+    "penalty": 0.001,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine"
+    ],
+    "means": [
+      9.307272406272306,
+      -0.00012473526609192337,
+      -0.0012502186093556735,
+      1.4707569349290188e-06,
+      0.0006840135040082516
+    ],
+    "scales": [
+      0.6086671357228888,
+      0.20980426461754728,
+      0.6034256894543663,
+      0.7068648843886011,
+      0.7073482645356899
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.0007478999096289242,
+    "coefficients": [
+      -0.04448333976273932,
+      0.0977294826655498,
+      -0.02487408403849919,
+      0.0095279618372734,
+      0.008823865700239126
+    ],
+    "train_mean_cfs": 13490.068399452804,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "delaware--lag1--local--lambda0.01": {
+    "basin": "delaware",
+    "lag": 1,
+    "model": "local",
+    "penalty": 0.01,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine"
+    ],
+    "means": [
+      9.307272406272306,
+      -0.00012473526609192337,
+      -0.0012502186093556735,
+      1.4707569349290188e-06,
+      0.0006840135040082516
+    ],
+    "scales": [
+      0.6086671357228888,
+      0.20980426461754728,
+      0.6034256894543663,
+      0.7068648843886011,
+      0.7073482645356899
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.0007478999096289242,
+    "coefficients": [
+      -0.04395711365869813,
+      0.09669358408799777,
+      -0.024612449976899094,
+      0.009310585195574159,
+      0.008659040866160024
+    ],
+    "train_mean_cfs": 13490.068399452804,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "delaware--lag1--local--lambda0.1": {
+    "basin": "delaware",
+    "lag": 1,
+    "model": "local",
+    "penalty": 0.1,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine"
+    ],
+    "means": [
+      9.307272406272306,
+      -0.00012473526609192337,
+      -0.0012502186093556735,
+      1.4707569349290188e-06,
+      0.0006840135040082516
+    ],
+    "scales": [
+      0.6086671357228888,
+      0.20980426461754728,
+      0.6034256894543663,
+      0.7068648843886011,
+      0.7073482645356899
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.0007478999096289242,
+    "coefficients": [
+      -0.03935495055547504,
+      0.08743055074370924,
+      -0.022223604013273005,
+      0.007485210595419159,
+      0.007257965107232579
+    ],
+    "train_mean_cfs": 13490.068399452804,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "delaware--lag1--local--lambda1.0": {
+    "basin": "delaware",
+    "lag": 1,
+    "model": "local",
+    "penalty": 1.0,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine"
+    ],
+    "means": [
+      9.307272406272306,
+      -0.00012473526609192337,
+      -0.0012502186093556735,
+      1.4707569349290188e-06,
+      0.0006840135040082516
+    ],
+    "scales": [
+      0.6086671357228888,
+      0.20980426461754728,
+      0.6034256894543663,
+      0.7068648843886011,
+      0.7073482645356899
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.0007478999096289242,
+    "coefficients": [
+      -0.019622134621293773,
+      0.04474444202659126,
+      -0.010904189979647639,
+      0.0016062966906936651,
+      0.00236048301134136
+    ],
+    "train_mean_cfs": 13490.068399452804,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "delaware--lag1--pair--lambda0.001": {
+    "basin": "delaware",
+    "lag": 1,
+    "model": "pair",
+    "penalty": 0.001,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine",
+      "additional_level",
+      "additional_one_day_change",
+      "additional_seven_day_change"
+    ],
+    "means": [
+      9.307272406272306,
+      -0.00012473526609192337,
+      -0.0012502186093556735,
+      1.4707569349290188e-06,
+      0.0006840135040082516,
+      9.227295623064885,
+      -0.0001485945167813141,
+      -0.0009013784772503326
+    ],
+    "scales": [
+      0.6086671357228888,
+      0.20980426461754728,
+      0.6034256894543663,
+      0.7068648843886011,
+      0.7073482645356899,
+      0.6089454468713383,
+      0.22558785280503652,
+      0.6040272079683876
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.0007478999096289242,
+    "coefficients": [
+      -0.16864423494333616,
+      -0.044673508289491175,
+      -0.029819534708753627,
+      0.011097532164929425,
+      0.011862122120389137,
+      0.12903522904654546,
+      0.14307017621826928,
+      0.013360709303587223
+    ],
+    "train_mean_cfs": 13490.068399452804,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "delaware--lag1--pair--lambda0.01": {
+    "basin": "delaware",
+    "lag": 1,
+    "model": "pair",
+    "penalty": 0.01,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine",
+      "additional_level",
+      "additional_one_day_change",
+      "additional_seven_day_change"
+    ],
+    "means": [
+      9.307272406272306,
+      -0.00012473526609192337,
+      -0.0012502186093556735,
+      1.4707569349290188e-06,
+      0.0006840135040082516,
+      9.227295623064885,
+      -0.0001485945167813141,
+      -0.0009013784772503326
+    ],
+    "scales": [
+      0.6086671357228888,
+      0.20980426461754728,
+      0.6034256894543663,
+      0.7068648843886011,
+      0.7073482645356899,
+      0.6089454468713383,
+      0.22558785280503652,
+      0.6040272079683876
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.0007478999096289242,
+    "coefficients": [
+      -0.08296928534152943,
+      -0.04285415641391415,
+      -0.042420535617124604,
+      0.008829103766721537,
+      0.009115719831670935,
+      0.044319236072237644,
+      0.1454450256280162,
+      0.025099371667588955
+    ],
+    "train_mean_cfs": 13490.068399452804,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "delaware--lag1--pair--lambda0.1": {
+    "basin": "delaware",
+    "lag": 1,
+    "model": "pair",
+    "penalty": 0.1,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine",
+      "additional_level",
+      "additional_one_day_change",
+      "additional_seven_day_change"
+    ],
+    "means": [
+      9.307272406272306,
+      -0.00012473526609192337,
+      -0.0012502186093556735,
+      1.4707569349290188e-06,
+      0.0006840135040082516,
+      9.227295623064885,
+      -0.0001485945167813141,
+      -0.0009013784772503326
+    ],
+    "scales": [
+      0.6086671357228888,
+      0.20980426461754728,
+      0.6034256894543663,
+      0.7068648843886011,
+      0.7073482645356899,
+      0.6089454468713383,
+      0.22558785280503652,
+      0.6040272079683876
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.0007478999096289242,
+    "coefficients": [
+      -0.035476803790842115,
+      0.0010641549564821165,
+      -0.02449831215672501,
+      0.006957033188581408,
+      0.006855923305842593,
+      -0.0018481030356126604,
+      0.10142078315623441,
+      0.004958097862507014
+    ],
+    "train_mean_cfs": 13490.068399452804,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  },
+  "delaware--lag1--pair--lambda1.0": {
+    "basin": "delaware",
+    "lag": 1,
+    "model": "pair",
+    "penalty": 1.0,
+    "n_train": 731,
+    "feature_names": [
+      "target_level",
+      "target_one_day_change",
+      "target_seven_day_change",
+      "season_sine",
+      "season_cosine",
+      "additional_level",
+      "additional_one_day_change",
+      "additional_seven_day_change"
+    ],
+    "means": [
+      9.307272406272306,
+      -0.00012473526609192337,
+      -0.0012502186093556735,
+      1.4707569349290188e-06,
+      0.0006840135040082516,
+      9.227295623064885,
+      -0.0001485945167813141,
+      -0.0009013784772503326
+    ],
+    "scales": [
+      0.6086671357228888,
+      0.20980426461754728,
+      0.6034256894543663,
+      0.7068648843886011,
+      0.7073482645356899,
+      0.6089454468713383,
+      0.22558785280503652,
+      0.6040272079683876
+    ],
+    "zero_scale_flags": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "response_mean": -0.0007478999096289242,
+    "coefficients": [
+      -0.015497932181410911,
+      0.025678160767379502,
+      -0.009967612061493642,
+      0.002150868416740775,
+      0.002583914839866631,
+      -0.009001319263777178,
+      0.043597764069895725,
+      -0.003285325243133362
+    ],
+    "train_mean_cfs": 13490.068399452804,
+    "train_first_date": "2020-01-01",
+    "train_last_date": "2021-12-31",
+    "training_date_sha256": "e9621b31a9e4558782b38bfd865a6a392a1c43d499956eabf0ee0153331511be",
+    "objective": "mean squared residual plus lambda*sum(beta^2); intercept unpenalized"
+  }
+}
