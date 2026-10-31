@@ -1,0 +1,26 @@
+{
+  "status": "PASS_COMPILE_AND_SIX_PAGE_VISUAL_REVIEW",
+  "timestamp_utc": "2026-10-31T00:00:58.990559+00:00",
+  "compiler": "Tectonic",
+  "pages": 6,
+  "render_tool": "Poppler pdftoppm",
+  "render_dpi": 95,
+  "visual_checks": "All six current rendered pages individually inspected. Tables/units, original failure, revised period, physical-unit reversal, uncertainty and limitations visible; no clipping or overlapping labels observed. No accessibility-conformance claim.",
+  "layout_warnings": [],
+  "artifact_sha256": {
+    "paper/main.tex": "e2e539b61e45e9eed01c25c7c5084ae73f27bf44ba26905601f5e6153fb2690a",
+    "paper/manuscript.pdf": "b2bae669ac94159ef8b6e6fa012e7ec37190211cb344164209d6334029fddc30",
+    "paper/images/gauge_sensitivity.pdf": "734ac20ec3293154868f16b1e57607cad52305bc6d2b003af0b49a27321e41cc",
+    "paper/images/gauge_validation.pdf": "90cb6fa5bbe8200f86beb2e113ef56c7902bbd6280faa94eb42d51ffcc877d5a",
+    "paper/images/primary_gauge_skill.pdf": "9c513cb270e0d710a1055a5d831b905330a248c0566a36d8d6e4b3fd18ab4235"
+  },
+  "rendered_page_sha256": {
+    "1": "26bab1282600d574719f857c06e66564f7360aed3aefb10da7ba190dfc090c3b",
+    "2": "57e91e1eb026b75b26e23a6909705b12dd42e75d2838f9b19d6f626111372bbe",
+    "3": "910e6b29529991e5701a199f15274266d65f61c569cb8151c90c1c424ff79b60",
+    "4": "54589d20791b678b93cb2fb490755d4843945eb9ae7b3859d140fa94ea593d36",
+    "5": "e5fab573b735e5d5bb2461e1dc852f060b60178456f234cf9a405053290c109a",
+    "6": "d84cda920686b65860350a35badcf3c8f20a0b1ea1465f2174fbbd23776bbece"
+  },
+  "private_log_sha256": "fb95547040771ed6aa21ae3ca36f36f7a8a2862e308970e1ec500aa27155ad60"
+}

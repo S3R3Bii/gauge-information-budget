@@ -1,0 +1,103 @@
+{
+  "timestamp_utc": "2026-10-31T00:02:26.470764+00:00",
+  "version": "V2 local ready candidate; exact remote release proof tracked separately",
+  "status": "LOCAL_ACCEPTANCE_PASS_RELEASE_PENDING",
+  "grade": 4,
+  "acceptance_criteria": "Preserve original failure; explicitly fixed v2 design before recorded-data modelling; approved source/rights and native reconciliation; complete fixed models/sensitivities and independent checks; frozen final selection; practical offline review; readable source-bound paper/figures; isolated replays; exact candidate/main CI/tree/tag and synchronized metadata.",
+  "criteria": {
+    "source": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "14864 Approved rows,40 station-year gates; complete independent native/metadata/SQL reconciliation",
+      "limitation": "V2 period informed by approval ledger; original2025gate remains failed; historical availability unknown."
+    },
+    "analysis": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "All32 candidate fits and192 final metric rows;216162 development/831539 final independent conditions",
+      "limitation": "Log objective favors pair; physical-unit MSE reverses in Susquehanna2023; dependent finite panels."
+    },
+    "separation": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "34 committed dependencies before final scores; no final reselection",
+      "limitation": "All source values present; held basins fit own historical coefficients, not model transfer."
+    },
+    "exercise": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "23 authored fixture methods and3 authored common-support/loss review cases",
+      "limitation": "Offline saved-result review, not a live forecast or monitoring control."
+    },
+    "presentation": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Three inspected figures with actual SVG geometry/value/color checks;43 paper bindings/204 conditions;all6 current PDF pages inspected",
+      "limitation": "No accessibility-conformance claim."
+    },
+    "replay": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Two isolated full-history CPython3.10.11/3.12.14 analysis clones;1079126 exact/298395 numeric facts each,3 source files unchanged",
+      "limitation": "Current presentation checked separately; exact remote candidate pending."
+    },
+    "privacy": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "83-file scoped staged audit and82 canonical Git blobs on c78ebe1; current receipt revision gets a fresh scan.",
+      "limitation": "Bounded path/extension exclusions, high-confidence text patterns and exact approved paper hashes; not universal security detection."
+    },
+    "release": {
+      "state": "unknown",
+      "grade": null,
+      "evidence": "Exact candidate/main Linux, matching tree, annotated tag and metadata pending"
+    }
+  },
+  "gates": {
+    "source": "pass",
+    "analysis": "pass",
+    "separation": "pass",
+    "exercise": "pass",
+    "presentation": "pass",
+    "replay": "pass",
+    "privacy": "pass_bounded_canonical_scan",
+    "release": "pending_exact_remote_proof"
+  },
+  "review_budget": {
+    "round": 3,
+    "max_rounds": 3,
+    "max_active_review_minutes": 45,
+    "max_review_tool_calls": 60,
+    "accounting": "Exact active-review time/calls not separately instrumented. V2 design/source began around23:46UTC; current timestamp bounds overall wall work, not review/quota/billing. Acquisition/execution are separate. No grading agents or later review round."
+  },
+  "usage": {
+    "source": "Codex get_usage_limits",
+    "observed_utc": "2026-10-31T00:00:22Z",
+    "bucket": "codex",
+    "window_minutes": 10080,
+    "used_percent": 56,
+    "remaining_percent": 44,
+    "reset_unix": 1793910839,
+    "secondary": "unavailable",
+    "shared_account_not_task_usage": true
+  },
+  "failures_retained": [
+    "Original qualifier-array schema mismatch and subsequent v1 Approved-coverage failure retained; v2 is separately labelled and approval-informed before modelling.",
+    "First uncommitted v2 design had an encoding/read-default error; original files restored from Git and UTF-8 boundary checked before commit.",
+    "First primary figure had a clipped negative interval, long title and tight footer; original retained privately. Targeted repair includes the full interval, shortens the title and separates footer; actual current SVG bounds checked and current raster inspected.",
+    "Matplotlib SVG trailing whitespace blocked the first staging check; output canonicalized with identical PNG/PDF bytes and freshly checked SVG geometry."
+  ],
+  "material_changes": "Fixed v2 source/design, complete independent model evidence and selection freeze, all final comparisons, loss-scale qualification, offline panel review, three figures and six-page manuscript.",
+  "reviewed_files_sha256": {
+    "paper/main.tex": "e2e539b61e45e9eed01c25c7c5084ae73f27bf44ba26905601f5e6153fb2690a",
+    "paper/manuscript.pdf": "b2bae669ac94159ef8b6e6fa012e7ec37190211cb344164209d6334029fddc30",
+    "paper_bindings_v2.json": "caccd4ef67765d368642c59056bca0f751527055d098b542ae8ef927232533f0",
+    "figures/value_map.json": "16c294ee0b9de7805d99bbc9172a2930e6d02cfee92e052b07a12afbab5f0ecc",
+    "data/v2/frozen_dependencies.json": "383c0babb7472048ff07a0053c300ca37686d5a9ad002ac8822330e2b0172059"
+  },
+  "scope": "Finite local artifact acceptance. The release additionally requires exact candidate/main Linux success, matching tree, annotated remote tag and synchronized metadata; those gates remain pending.",
+  "release_evidence": {
+    "state": "PENDING_EXACT_REMOTE_CHECKS",
+    "pull_request": "https://github.com/S3R3Bii/gauge-information-budget/pull/2"
+  }
+}

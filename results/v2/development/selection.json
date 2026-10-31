@@ -1,0 +1,26 @@
+{
+  "status": "DEVELOPMENT_SELECTION_ONLY",
+  "training_years": [
+    2020,
+    2021
+  ],
+  "validation_year": 2022,
+  "development_basins": [
+    "wisconsin",
+    "delaware"
+  ],
+  "selected": {
+    "lag3--local": 0.1,
+    "lag3--pair": 0.01,
+    "lag1--local": 0.1,
+    "lag1--pair": 0.001
+  },
+  "tie_rule": "within absolute1e-12 of best; larger lambda",
+  "boundary_winners": {
+    "lag3--local": false,
+    "lag3--pair": false,
+    "lag1--local": false,
+    "lag1--pair": true
+  },
+  "final_scores_computed": false
+}

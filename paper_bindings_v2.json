@@ -1,0 +1,442 @@
+{
+  "SourceRows": {
+    "file": "data/v2/SOURCE_CHECK.json",
+    "pointer": [
+      "source_rows"
+    ],
+    "value": 14864,
+    "format": "integer",
+    "display": "14,864"
+  },
+  "QualifiedRows": {
+    "file": "data/v2/SOURCE_CHECK.json",
+    "pointer": [
+      "qualified_usable_rows"
+    ],
+    "value": 1421,
+    "format": "integer",
+    "display": "1,421"
+  },
+  "SourceGates": {
+    "file": "data/v2/SOURCE_CHECK.json",
+    "pointer": [
+      "station_year_coverage_gates"
+    ],
+    "value": 40,
+    "format": "integer",
+    "display": "40"
+  },
+  "LocalSkill": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "equal_panel_mean",
+      "local_skill"
+    ],
+    "value": 0.15319706475430744,
+    "format": "percent",
+    "display": "15.32"
+  },
+  "PairSkill": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "equal_panel_mean",
+      "pair_skill"
+    ],
+    "value": 0.2896076667797683,
+    "format": "percent",
+    "display": "28.96"
+  },
+  "SkillDifference": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "equal_panel_mean",
+      "pair_minus_local"
+    ],
+    "value": 0.13641060202546085,
+    "format": "percent",
+    "display": "13.64"
+  },
+  "DevChecks": {
+    "file": "results/v2/development/independent_verification.json",
+    "pointer": [
+      "conditions"
+    ],
+    "value": 216162,
+    "format": "integer",
+    "display": "216,162"
+  },
+  "FinalChecks": {
+    "file": "results/v2/final/independent_verification.json",
+    "pointer": [
+      "conditions"
+    ],
+    "value": 831539,
+    "format": "integer",
+    "display": "831,539"
+  },
+  "FinalPredictions": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "prediction_rows"
+    ],
+    "value": 59154,
+    "format": "integer",
+    "display": "59,154"
+  },
+  "PanelCount": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "model_panel_rows"
+    ],
+    "value": 192,
+    "format": "integer",
+    "display": "192"
+  },
+  "TrentonApproval": {
+    "file": "results/SOURCE_FAILURE.json",
+    "pointer": [
+      "failed_station_years",
+      0,
+      "usable_approved_days"
+    ],
+    "value": 64,
+    "format": "integer",
+    "display": "64"
+  },
+  "WinonaApproval": {
+    "file": "results/SOURCE_FAILURE.json",
+    "pointer": [
+      "failed_station_years",
+      1,
+      "usable_approved_days"
+    ],
+    "value": 322,
+    "format": "integer",
+    "display": "322"
+  },
+  "MuscodaApproval": {
+    "file": "results/SOURCE_FAILURE.json",
+    "pointer": [
+      "failed_station_years",
+      2,
+      "usable_approved_days"
+    ],
+    "value": 335,
+    "format": "integer",
+    "display": "335"
+  },
+  "ThreeLocal": {
+    "file": "results/v2/development/selection.json",
+    "pointer": [
+      "selected",
+      "lag3--local"
+    ],
+    "value": 0.1,
+    "format": "text",
+    "display": "0.1"
+  },
+  "ThreePair": {
+    "file": "results/v2/development/selection.json",
+    "pointer": [
+      "selected",
+      "lag3--pair"
+    ],
+    "value": 0.01,
+    "format": "text",
+    "display": "0.01"
+  },
+  "OneLocal": {
+    "file": "results/v2/development/selection.json",
+    "pointer": [
+      "selected",
+      "lag1--local"
+    ],
+    "value": 0.1,
+    "format": "text",
+    "display": "0.1"
+  },
+  "OnePair": {
+    "file": "results/v2/development/selection.json",
+    "pointer": [
+      "selected",
+      "lag1--pair"
+    ],
+    "value": 0.001,
+    "format": "text",
+    "display": "0.001"
+  },
+  "MissADays": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "primary_panels",
+      0,
+      "n"
+    ],
+    "value": 365,
+    "format": "integer",
+    "display": "365"
+  },
+  "MissABaseMse": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "primary_panels",
+      0,
+      "persistence_log_mse"
+    ],
+    "value": 0.025204323234357815,
+    "format": "six",
+    "display": "0.025204"
+  },
+  "MissALocalMse": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "primary_panels",
+      0,
+      "local_log_mse"
+    ],
+    "value": 0.022532086731801126,
+    "format": "six",
+    "display": "0.022532"
+  },
+  "MissAPairMse": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "primary_panels",
+      0,
+      "pair_log_mse"
+    ],
+    "value": 0.016164614434502872,
+    "format": "six",
+    "display": "0.016165"
+  },
+  "MissALocalCfsMse": {
+    "file": "results/v2/final/panel_metrics.json",
+    "pointer": [
+      145,
+      "cfs_mse"
+    ],
+    "value": 81546739.07022317,
+    "format": "million",
+    "display": "81.55"
+  },
+  "MissAPairCfsMse": {
+    "file": "results/v2/final/panel_metrics.json",
+    "pointer": [
+      146,
+      "cfs_mse"
+    ],
+    "value": 46217133.37588336,
+    "format": "million",
+    "display": "46.22"
+  },
+  "MissBDays": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "primary_panels",
+      1,
+      "n"
+    ],
+    "value": 366,
+    "format": "integer",
+    "display": "366"
+  },
+  "MissBBaseMse": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "primary_panels",
+      1,
+      "persistence_log_mse"
+    ],
+    "value": 0.024928515467951173,
+    "format": "six",
+    "display": "0.024929"
+  },
+  "MissBLocalMse": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "primary_panels",
+      1,
+      "local_log_mse"
+    ],
+    "value": 0.021077451775984614,
+    "format": "six",
+    "display": "0.021077"
+  },
+  "MissBPairMse": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "primary_panels",
+      1,
+      "pair_log_mse"
+    ],
+    "value": 0.017260182333033728,
+    "format": "six",
+    "display": "0.017260"
+  },
+  "MissBLocalCfsMse": {
+    "file": "results/v2/final/panel_metrics.json",
+    "pointer": [
+      157,
+      "cfs_mse"
+    ],
+    "value": 64769069.38456982,
+    "format": "million",
+    "display": "64.77"
+  },
+  "MissBPairCfsMse": {
+    "file": "results/v2/final/panel_metrics.json",
+    "pointer": [
+      158,
+      "cfs_mse"
+    ],
+    "value": 39496612.96191114,
+    "format": "million",
+    "display": "39.50"
+  },
+  "SusADays": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "primary_panels",
+      2,
+      "n"
+    ],
+    "value": 365,
+    "format": "integer",
+    "display": "365"
+  },
+  "SusABaseMse": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "primary_panels",
+      2,
+      "persistence_log_mse"
+    ],
+    "value": 0.13527327174215634,
+    "format": "six",
+    "display": "0.135273"
+  },
+  "SusALocalMse": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "primary_panels",
+      2,
+      "local_log_mse"
+    ],
+    "value": 0.11421174498101105,
+    "format": "six",
+    "display": "0.114212"
+  },
+  "SusAPairMse": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "primary_panels",
+      2,
+      "pair_log_mse"
+    ],
+    "value": 0.10649221445007209,
+    "format": "six",
+    "display": "0.106492"
+  },
+  "SusALocalCfsMse": {
+    "file": "results/v2/final/panel_metrics.json",
+    "pointer": [
+      97,
+      "cfs_mse"
+    ],
+    "value": 403449540.51900244,
+    "format": "million",
+    "display": "403.45"
+  },
+  "SusAPairCfsMse": {
+    "file": "results/v2/final/panel_metrics.json",
+    "pointer": [
+      98,
+      "cfs_mse"
+    ],
+    "value": 416163558.36205184,
+    "format": "million",
+    "display": "416.16"
+  },
+  "SusBDays": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "primary_panels",
+      3,
+      "n"
+    ],
+    "value": 366,
+    "format": "integer",
+    "display": "366"
+  },
+  "SusBBaseMse": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "primary_panels",
+      3,
+      "persistence_log_mse"
+    ],
+    "value": 0.18562747413736838,
+    "format": "six",
+    "display": "0.185627"
+  },
+  "SusBLocalMse": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "primary_panels",
+      3,
+      "local_log_mse"
+    ],
+    "value": 0.14913591642724214,
+    "format": "six",
+    "display": "0.149136"
+  },
+  "SusBPairMse": {
+    "file": "results/v2/final/summary.json",
+    "pointer": [
+      "primary_panels",
+      3,
+      "pair_log_mse"
+    ],
+    "value": 0.1337634641337626,
+    "format": "six",
+    "display": "0.133763"
+  },
+  "SusBLocalCfsMse": {
+    "file": "results/v2/final/panel_metrics.json",
+    "pointer": [
+      109,
+      "cfs_mse"
+    ],
+    "value": 999911230.0185276,
+    "format": "million",
+    "display": "999.91"
+  },
+  "SusBPairCfsMse": {
+    "file": "results/v2/final/panel_metrics.json",
+    "pointer": [
+      110,
+      "cfs_mse"
+    ],
+    "value": 929529138.3174288,
+    "format": "million",
+    "display": "929.53"
+  },
+  "ReplayExact": {
+    "file": "results/v2/reproduction_cpython310.json",
+    "pointer": [
+      "exact_fields"
+    ],
+    "value": 1079126,
+    "format": "integer",
+    "display": "1,079,126"
+  },
+  "ReplayNumeric": {
+    "file": "results/v2/reproduction_cpython310.json",
+    "pointer": [
+      "numeric_fields"
+    ],
+    "value": 298395,
+    "format": "integer",
+    "display": "298,395"
+  }
+}

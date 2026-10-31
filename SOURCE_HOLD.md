@@ -1,0 +1,7 @@
+# Study14: approved-source coverage hold
+
+The additional-river-gauge study remains **unreleased**. All 17,784 fixed daily discharge records were captured from eight official USGS time series with matching before/after metadata versions. The predeclared requirement of 95% usable Approved days per station/year failed in 2025: Trenton 01463500 has 64/365, Winona 05378500 has 322/365 and Muscoda 05407000 has 335/365. An independent SQLite count confirms 374 Provisional records and the same three failed station-years.
+
+The [official daily schema](https://api.waterdata.usgs.gov/ogcapi/v1/collections/daily/schema) distinguishes Approved from Provisional records; later updates can revise them. No flow-value correlation, model fit, validation error or held prediction result was computed. The source snapshot and failed receipts are retained privately. The draft [project repository](https://github.com/S3R3Bii/gauge-information-budget) records the fixed protocol and source-schema correction. Its qualifier-array repair preserved all date/value/approval gates; it did not resolve the subsequent substantive approval failure.
+
+No study release is counted. Resume only with a qualifying approved snapshot under the declared protocol or a separately labeled prospective redesign before any model analysis. Do not silently relabel provisional data, weaken the quality criterion, replace windows/stations after this failure or claim actual historical warning validation. Continue unaffected work.

@@ -1,0 +1,98 @@
+[
+  {
+    "lag": 3,
+    "model": "local",
+    "penalty": 0.001,
+    "equal_basin_validation_log_mse": 0.08839745701102346
+  },
+  {
+    "lag": 3,
+    "model": "local",
+    "penalty": 0.01,
+    "equal_basin_validation_log_mse": 0.08832922261648318
+  },
+  {
+    "lag": 3,
+    "model": "local",
+    "penalty": 0.1,
+    "equal_basin_validation_log_mse": 0.08790407532977428
+  },
+  {
+    "lag": 3,
+    "model": "local",
+    "penalty": 1.0,
+    "equal_basin_validation_log_mse": 0.08969852700212262
+  },
+  {
+    "lag": 3,
+    "model": "pair",
+    "penalty": 0.001,
+    "equal_basin_validation_log_mse": 0.07531532220315462
+  },
+  {
+    "lag": 3,
+    "model": "pair",
+    "penalty": 0.01,
+    "equal_basin_validation_log_mse": 0.07437901376151419
+  },
+  {
+    "lag": 3,
+    "model": "pair",
+    "penalty": 0.1,
+    "equal_basin_validation_log_mse": 0.07592505106806618
+  },
+  {
+    "lag": 3,
+    "model": "pair",
+    "penalty": 1.0,
+    "equal_basin_validation_log_mse": 0.08193460846162859
+  },
+  {
+    "lag": 1,
+    "model": "local",
+    "penalty": 0.001,
+    "equal_basin_validation_log_mse": 0.020215420801817388
+  },
+  {
+    "lag": 1,
+    "model": "local",
+    "penalty": 0.01,
+    "equal_basin_validation_log_mse": 0.020207900258913055
+  },
+  {
+    "lag": 1,
+    "model": "local",
+    "penalty": 0.1,
+    "equal_basin_validation_log_mse": 0.02019162229213564
+  },
+  {
+    "lag": 1,
+    "model": "local",
+    "penalty": 1.0,
+    "equal_basin_validation_log_mse": 0.021274282766729956
+  },
+  {
+    "lag": 1,
+    "model": "pair",
+    "penalty": 0.001,
+    "equal_basin_validation_log_mse": 0.013876016556475947
+  },
+  {
+    "lag": 1,
+    "model": "pair",
+    "penalty": 0.01,
+    "equal_basin_validation_log_mse": 0.014106028016719268
+  },
+  {
+    "lag": 1,
+    "model": "pair",
+    "penalty": 0.1,
+    "equal_basin_validation_log_mse": 0.01559013256339634
+  },
+  {
+    "lag": 1,
+    "model": "pair",
+    "penalty": 1.0,
+    "equal_basin_validation_log_mse": 0.0185301766728219
+  }
+]
