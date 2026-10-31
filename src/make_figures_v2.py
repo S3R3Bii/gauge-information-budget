@@ -38,8 +38,15 @@ def save(fig, name, items, axes):
     images = ROOT / "paper/images"
     images.mkdir(parents=True, exist_ok=True)
     fig.savefig(folder / (name + ".svg"), metadata={"Date": None})
-    svg=folder/(name+'.svg')
-    svg.write_bytes(('\n'.join(line.rstrip() for line in svg.read_text(encoding='utf-8').splitlines())+'\n').encode())
+    svg = folder / (name + ".svg")
+    svg.write_bytes(
+        (
+            "\n".join(
+                line.rstrip() for line in svg.read_text(encoding="utf-8").splitlines()
+            )
+            + "\n"
+        ).encode()
+    )
     fig.savefig(
         folder / (name + ".pdf"), metadata={"CreationDate": None, "ModDate": None}
     )

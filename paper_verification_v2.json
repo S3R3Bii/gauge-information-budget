@@ -1,0 +1,17 @@
+{
+  "status": "PASS_SOURCE_BOUND_V2_MANUSCRIPT",
+  "pages": 6,
+  "bound_values": 43,
+  "conditions": 204,
+  "manuscript_sha256": "b2bae669ac94159ef8b6e6fa012e7ec37190211cb344164209d6334029fddc30",
+  "page_characters": [
+    2415,
+    2524,
+    2057,
+    1628,
+    2368,
+    3586
+  ],
+  "v1_failure_and_physical_unit_reversal_explicit": true,
+  "rendering": "All six current Poppler renders inspected; CI checks source bindings and reviewed artifact bytes without compiling TeX."
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS_ANALYSIS_ONLY_REPLAY",
+  "python": "3.12.14",
+  "numpy": "2.2.5",
+  "exact_fields": 1079126,
+  "numeric_fields": 298395,
+  "independently_bounded_as_run_diagnostics": 4,
+  "maximum_difference_fraction_of_declared_tolerance": 0.0,
+  "phase_conditions": {
+    "development": 216162,
+    "final": 831539
+  },
+  "source": "Selected public USGS facts; original private captures separately verified and hash-bound",
+  "original_v1_gate": "FAILED_UNCHANGED",
+  "full_history_repository": true,
+  "source_requests": 0,
+  "fixtures": 23,
+  "authored_cases": 3,
+  "analysis_revision": "d122d8540bbec1efd89fadc7ab3a4a39e36fee3a",
+  "isolated_full_history_clone": true,
+  "source_files_unchanged": 3,
+  "source_sha256": {
+    "data/v2/source_cells.csv.gz": "38bc2c55aec0749de8411570bddbcb7e03e597bb00ec08198d8f7d602f23ee39",
+    "data/v2/source_manifest.json": "c917fdf3223897adc67b5427b5640a790ca7ddd868d7673f46b9de0d61f8e003",
+    "data/v2/measurements.csv": "1cfc0380be9bc5db52a5d39f048334929cdab53948ea464d1923c2d6ad9dcdd9"
+  }
+}

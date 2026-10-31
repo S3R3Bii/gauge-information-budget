@@ -1,0 +1,12 @@
+{
+  "scope": "independent-program-study",
+  "formal_submission_target": false,
+  "authority": "James authorized reviewed independent program manuscripts on project repositories; formal-publication projects remain private.",
+  "public_files": {
+    "paper/main.tex": "e2e539b61e45e9eed01c25c7c5084ae73f27bf44ba26905601f5e6153fb2690a",
+    "paper/manuscript.pdf": "b2bae669ac94159ef8b6e6fa012e7ec37190211cb344164209d6334029fddc30",
+    "paper/images/gauge_sensitivity.pdf": "734ac20ec3293154868f16b1e57607cad52305bc6d2b003af0b49a27321e41cc",
+    "paper/images/gauge_validation.pdf": "90cb6fa5bbe8200f86beb2e113ef56c7902bbd6280faa94eb42d51ffcc877d5a",
+    "paper/images/primary_gauge_skill.pdf": "9c513cb270e0d710a1055a5d831b905330a248c0566a36d8d6e4b3fd18ab4235"
+  }
+}

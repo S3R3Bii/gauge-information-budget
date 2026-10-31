@@ -2,6 +2,8 @@
 
 The additional-gauge model has greater log-MSE skill than the local-history model in each of the four primary basin/year panels. Equal-panel skill versus persistence is 28.96% for the pair model and 15.32% for local history. Their difference is 13.64 percentage points of persistence-normalized skill, not a measured operational benefit.
 
+Physical-unit MSE reverses the local/pair ordering for Susquehanna 2023: pair 416.16 versus local 403.45 million cfs squared. A transformed-scale improvement is not a win on every loss.
+
 This uses the separately specified 2020–2024 Approved-data cohort. Training is 2020–2021, development validation is 2022, and final evaluation is 2023–2024. The original 2020–2025 approval gate remains failed. The revised period was informed by the approval ledger before modelling; no original-vintage or blinded-collection claim follows.
 
 | Primary panel | Days | Local skill (%) | Pair skill (%) | Difference (percentage points) | Conditional 90% interval for difference |
