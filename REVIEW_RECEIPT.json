@@ -1,8 +1,8 @@
 {
-  "timestamp_utc": "2026-10-31T00:01:36.377642+00:00",
-  "version": "Complete v2 figures/manuscript and replay package before exact remote proof",
-  "status": "INCOMPLETE_REMOTE_RELEASE_PENDING",
-  "grade": 3,
+  "timestamp_utc": "2026-10-31T00:02:26.470764+00:00",
+  "version": "V2 local ready candidate; exact remote release proof tracked separately",
+  "status": "LOCAL_ACCEPTANCE_PASS_RELEASE_PENDING",
+  "grade": 4,
   "acceptance_criteria": "Preserve original failure; explicitly fixed v2 design before recorded-data modelling; approved source/rights and native reconciliation; complete fixed models/sensitivities and independent checks; frozen final selection; practical offline review; readable source-bound paper/figures; isolated replays; exact candidate/main CI/tree/tag and synchronized metadata.",
   "criteria": {
     "source": {
@@ -42,9 +42,10 @@
       "limitation": "Current presentation checked separately; exact remote candidate pending."
     },
     "privacy": {
-      "state": "unknown",
-      "grade": null,
-      "evidence": "Scoped staged/canonical audit pending"
+      "state": "pass",
+      "grade": 4,
+      "evidence": "83-file scoped staged audit and82 canonical Git blobs on c78ebe1; current receipt revision gets a fresh scan.",
+      "limitation": "Bounded path/extension exclusions, high-confidence text patterns and exact approved paper hashes; not universal security detection."
     },
     "release": {
       "state": "unknown",
@@ -59,8 +60,8 @@
     "exercise": "pass",
     "presentation": "pass",
     "replay": "pass",
-    "privacy": "unknown",
-    "release": "unknown"
+    "privacy": "pass_bounded_canonical_scan",
+    "release": "pending_exact_remote_proof"
   },
   "review_budget": {
     "round": 3,
@@ -93,5 +94,10 @@
     "paper_bindings_v2.json": "caccd4ef67765d368642c59056bca0f751527055d098b542ae8ef927232533f0",
     "figures/value_map.json": "16c294ee0b9de7805d99bbc9172a2930e6d02cfee92e052b07a12afbab5f0ecc",
     "data/v2/frozen_dependencies.json": "383c0babb7472048ff07a0053c300ca37686d5a9ad002ac8822330e2b0172059"
+  },
+  "scope": "Finite local artifact acceptance. The release additionally requires exact candidate/main Linux success, matching tree, annotated remote tag and synchronized metadata; those gates remain pending.",
+  "release_evidence": {
+    "state": "PENDING_EXACT_REMOTE_CHECKS",
+    "pull_request": "https://github.com/S3R3Bii/gauge-information-budget/pull/2"
   }
 }
